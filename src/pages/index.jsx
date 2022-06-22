@@ -1,24 +1,28 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Header from "../components/Header";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Demo Site</title>
       </Head>
       <img src="/images/hlogo.jpg" />
       <img src="/images/top_title.jpg" />
-      <h1 className="text-red-300">Demo Site</h1>
-      <h2>
-        <Link href="posts/news">最新情報</Link>
-        <Link href="posts/policy">〇〇の理念</Link>
-        <Link href="posts/service">業務内容</Link>
-        <Link href="posts/company">会社概要</Link>
-        <Link href="posts/recruit">採用情報</Link>
-        <Link href="posts/contact">お問い合わせ</Link>
-      </h2>
-    </div>
+      <Header />
+      <main className="text-4xl bg-red-400">
+        <div>
+          <h1 className="text-4xl text-red-600">ニュース</h1>
+          <h2 className="texl-xl">
+            <Link href="/">
+              <a>ニュース一覧</a>
+            </Link>
+          </h2>
+        </div>
+      </main>
+    </>
   );
-}
+};
+export default Home;
