@@ -9,11 +9,11 @@ const Home = () => {
       <Head>
         <title>Demo Site</title>
       </Head>
-      <img src="/images/hlogo.jpg" />
-      <img src="/images/top_title.jpg" />
+      {/* <img src="/images/hlogo.jpg" />
+      <img src="/images/top_title.jpg" /> */}
       <Header />
-      <main className="text-4xl bg-red-400">
-        <div>
+      <main>
+        <div className="bg-blue-200 h-screen">
           <h1 className="text-4xl text-red-600">ニュース</h1>
           <h2 className="texl-xl">
             <Link href="/">
