@@ -12,8 +12,10 @@ const Home = () => {
       <Header />
       <main>
         <div className="bg-blue-200 h-screen">
-          <h1 className="text-4xl text-red-600 py-10 px-20">ニュース</h1>
-          <h2 className="texl-xl">
+          <h1 className="text-4xl text-red-600 py-10 px-20 border-2">
+            ニュース
+          </h1>
+          <h2 className="texl-xl py-5 px-20">
             <Link href="/">
               <a>ニュース一覧</a>
             </Link>
