@@ -10,16 +10,17 @@ const Home = () => {
         <title>Demo Site</title>
       </Head>
       <Header />
-      <main>
-        <div className="bg-blue-200 h-screen">
-          <h1 className="text-4xl text-red-600 py-10 px-20 border-2">
-            ニュース
-          </h1>
-          <h2 className="texl-xl py-5 px-20">
+      <main className="flex bg-blue-200">
+        <div className=" h-screen">
+          <h1 className="text-4xl text-red-600 py-10 px-20">ニュース</h1>
+          <h2 className="texl-xl text-pink-600 py-5 px-20">
             <Link href="/">
               <a>ニュース一覧</a>
             </Link>
           </h2>
+        </div>
+        <div>
+          <h1 className="text-4xl  text-red-600 py-10 px-20">投稿</h1>
         </div>
       </main>
     </>
