@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 const Header = () => {
   return (
@@ -34,6 +35,14 @@ const Header = () => {
           <Link href="posts/contact">
             <a>お問い合わせ</a>
           </Link>
+        </div>
+        <div className="mx-5">
+          <SignedOut>
+            <Link href="/sign-in">Sign in</Link>
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
         </div>
       </div>
     </>
