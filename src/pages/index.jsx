@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
           <h1 className="text-4xl  text-red-600 py-10 px-20">投稿</h1>
         </div>
       </main>
+      <Footer />
     </>
   );
 };

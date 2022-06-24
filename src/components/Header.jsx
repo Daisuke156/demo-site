@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className="text-red-300 text-4xl bg-red-400">Demo Site</div>
-      <div className="flex justify-between bg-green-400 text-4xl">
+      <div className="flex justify-between bg-green-400 text-4xl py-10">
         <div>
           <Link href="posts/news">
             <a>最新情報</a>
