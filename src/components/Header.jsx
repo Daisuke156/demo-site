@@ -15,7 +15,7 @@ const Header = () => {
           </SignedIn>
         </div>
       </div>
-      <div className="flex justify-between bg-green-400 text-4xl py-5 px-10">
+      <div className="flex justify-between text-2xl py-5 px-10">
         <div>
           <Link href="posts/news">
             <a>最新情報</a>
