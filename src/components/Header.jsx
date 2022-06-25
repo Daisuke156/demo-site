@@ -4,8 +4,18 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 const Header = () => {
   return (
     <>
-      <div className="text-red-300 text-4xl bg-red-400">Demo Site</div>
-      <div className="flex justify-between bg-green-400 text-4xl py-10">
+      <div className="flex justify-between">
+        <div className="text-red-300 text-4xl py-10 px-10">Demo Site</div>
+        <div className="px-10 py-10">
+          <SignedOut>
+            <Link href="/sign-in">Sign in</Link>
+          </SignedOut>
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+        </div>
+      </div>
+      <div className="flex justify-between bg-green-400 text-4xl py-5 px-10">
         <div>
           <Link href="posts/news">
             <a>最新情報</a>
@@ -35,14 +45,6 @@ const Header = () => {
           <Link href="posts/contact">
             <a>お問い合わせ</a>
           </Link>
-        </div>
-        <div className="mx-5">
-          <SignedOut>
-            <Link href="/sign-in">Sign in</Link>
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
         </div>
       </div>
     </>
