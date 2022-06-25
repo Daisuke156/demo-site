@@ -1,8 +1,17 @@
 import Head from "next/head";
-import { TextInput, Checkbox, Button, Group, Box } from "@mantine/core";
+import { TextInput, Checkbox, Button, Group, Box, Switch } from "@mantine/core";
 import { useForm } from "@mantine/form";
+import { useState } from "react";
 
 export function Demo() {
+  const [checked, setChecked] = useState(false);
+  return (
+    <Switch
+      checked={checked}
+      onChange={(event) => setChecked(event.currentTarget.checked)}
+    />
+  );
+
   const form = useForm({
     initialValues: {
       email: "",
