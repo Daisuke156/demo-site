@@ -4,7 +4,7 @@ import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between">
+      <div className="flex justify-between bg-green-100">
         <div className="text-red-300 text-4xl py-10 px-10">Demo Site</div>
         <div className="px-10 py-10">
           <SignedOut>
