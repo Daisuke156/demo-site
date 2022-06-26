@@ -1,1 +1,6 @@
-This is a demo site for [Learn Next.js](https://nextjs.org/learn).
+# 使用技術 
+- React(Next.js)
+- tailwindCSS(装飾) 
+- supabase（データベース） 
+- mantine（ボタンや入力フォーマットなど） 
+- Cleak(認証) 
