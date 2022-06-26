@@ -1,9 +1,19 @@
 import Head from "next/head";
-import { TextInput, Checkbox, Button, Group, Box, Switch } from "@mantine/core";
+import {
+  TextInput,
+  Checkbox,
+  Button,
+  Group,
+  Box,
+  Switch,
+  Radio,
+  RadioGroup,
+  Select,
+} from "@mantine/core";
 import { useForm } from "@mantine/form";
 import { useState } from "react";
 
-export function Demo() {
+function Demo() {
   const [checked, setChecked] = useState(false);
   return (
     <Switch
@@ -11,7 +21,37 @@ export function Demo() {
       onChange={(event) => setChecked(event.currentTarget.checked)}
     />
   );
+}
+function Demo4() {
+  return (
+    <Select
+      label="Your favorite framework/library"
+      placeholder="Pick one"
+      data={[
+        { value: "react", label: "React" },
+        { value: "ng", label: "Angular" },
+        { value: "svelte", label: "Svelte" },
+        { value: "vue", label: "Vue" },
+      ]}
+    />
+  );
+}
+function Demo3() {
+  return (
+    <RadioGroup
+      label="Select your favorite framework/library"
+      description="This is anonymous"
+      required
+    >
+      <Radio value="react" label="React" />
+      <Radio value="svelte" label="Svelte" />
+      <Radio value="ng" label="Angular" />
+      <Radio value="vue" label="Vue" />
+    </RadioGroup>
+  );
+}
 
+function Demo2() {
   const form = useForm({
     initialValues: {
       email: "",
@@ -33,11 +73,11 @@ export function Demo() {
           {...form.getInputProps("email")}
         />
 
-        {/* <Checkbox
+        <Checkbox
           mt="md"
           label=""
           {...form.getInputProps("termsOfService", { type: "checkbox" })}
-        /> */}
+        />
 
         <Group position="right" mt="md">
           <Button type="submit">検索する</Button>
@@ -56,6 +96,9 @@ const News = () => {
       <main className="bg-blue-500 h-screen">
         <div>ニュース一覧</div>
         <Demo />
+        <Demo2 />
+        <Demo3 />
+        <Demo4 />
       </main>
     </>
   );
