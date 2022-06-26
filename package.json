@@ -8,7 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@clerk/nextjs": "^3.6.7",
+    "@mantine/core": "^4.2.10",
+    "@mantine/dates": "^4.2.10",
+    "@mantine/form": "^4.2.10",
+    "@mantine/hooks": "^4.2.10",
+    "@mantine/next": "^4.2.10",
     "date-fns": "^2.19.0",
+    "dayjs": "^1.11.3",
     "gray-matter": "^4.0.2",
     "next": "^10.0.0",
     "react": "17.0.1",
@@ -16,5 +23,8 @@
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
   }
 }
