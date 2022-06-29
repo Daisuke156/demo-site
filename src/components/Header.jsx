@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <div className="flex justify-center bg-red-700">
-        <div className="text-red-300 text-4xl py-10 px-10">Demo Site</div>
+        <div className="text-red-300 text-4xl py-10 px-20">Demo Site</div>
         <div className="text-white px-10 py-10">フリーダイヤル</div>
         <div className="text-white">
           <FontAwesomeIcon icon="fa-solid fa-mobile-screen" />
