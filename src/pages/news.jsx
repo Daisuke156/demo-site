@@ -73,11 +73,11 @@ function Demo2() {
           {...form.getInputProps("email")}
         />
 
-        <Checkbox
+        {/* <Checkbox
           mt="md"
           label=""
           {...form.getInputProps("termsOfService", { type: "checkbox" })}
-        />
+        /> */}
 
         <Group position="right" mt="md">
           <Button type="submit">検索する</Button>
@@ -93,7 +93,7 @@ const News = () => {
       <Head>
         <title>ニュース一覧</title>
       </Head>
-      <main className="bg-blue-500 h-screen">
+      <main className="bg-blue-200 h-screen">
         <div>ニュース一覧</div>
         <Demo />
         <Demo2 />
