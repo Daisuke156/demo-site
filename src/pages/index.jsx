@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ReturnTopButton from "../components/Totop";
+import Sidevar from "../components/Sidevar";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Header />
       <main className="">
         <div className=" h-screen">
+          <Sidevar />
           <div className="flex justify-center">
             <ReturnTopButton />
           </div>

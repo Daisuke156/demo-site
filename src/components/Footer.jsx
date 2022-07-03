@@ -25,7 +25,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/">
+          <Link href="posts/branch">
             <a>事務所紹介</a>
           </Link>
         </div>
