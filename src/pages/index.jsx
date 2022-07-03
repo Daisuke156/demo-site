@@ -12,11 +12,11 @@ const Home = () => {
         <title>Demo Site</title>
       </Head>
       <Header />
-      <main className="flex">
-        <div className="h-screen">
+      <main className="flex h-screen">
+        <div className="w-1/4">
           <Sidevar />
         </div>
-        <div>
+        <div className="w-1/2">
           時空を・・・
           <h1>業務内容</h1>
           <h2>ロゴ</h2>
