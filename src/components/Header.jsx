@@ -7,19 +7,22 @@ const Header = () => {
     <>
       <div className="flex justify-between bg-red-700 border-b-4 border-b-white">
         <div className="text-red-300 text-4xl py-10 px-20">Demo Site</div>
-        <div className="flex">
-          <div className="text-white px-5 py-10">フリーダイヤル</div>
-          <div className="text-white">
-            <FontAwesomeIcon icon="fa-solid fa-mobile-screen" />
-          </div>
-          <div className="text-2xl text-white px-10 py-10">0120-111-222</div>
-          <div className="px-10 py-10">
-            <SignedOut>
-              <Link href="/sign-in">Sign in</Link>
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
+        <div className="">
+          <div className="text-white py-5">電話受付時間:平日9:00〜17:00</div>
+          <div className="flex">
+            <div className="text-white">フリーダイヤル</div>
+            <div className="text-white">
+              <FontAwesomeIcon icon="fa-solid fa-mobile-screen" />
+            </div>
+            <div className="text-2xl text-white px-10">0120-111-222</div>
+            <div className="px-10">
+              <SignedOut>
+                <Link href="/sign-in">Sign in</Link>
+              </SignedOut>
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
+            </div>
           </div>
         </div>
       </div>
