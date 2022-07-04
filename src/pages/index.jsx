@@ -16,15 +16,15 @@ const Home = () => {
         <div className="w-1/4">
           <Sidevar />
         </div>
-        <div className="w-1/2">
-          時空を・・・
-          <h1>業務内容</h1>
-          <h2>ロゴ</h2>
-          <h3>
+        <div className="w-2/4 h-screen">
+          <h1 className="h-1/5">時空を・・・</h1>
+          <h1 className="h-1/5">業務内容</h1>
+          <h2 className="h-1/5">ロゴ</h2>
+          <h3 className="h-1/5">
             株式会社**はシステム構築、システム運用を主業務としています。システムエンジニアをやる気のある方を採用募集しております。東京、名古屋、神戸と全国に展開しています。フリーダイヤル:0120-111-222
           </h3>
         </div>
-        <div className="flex justify-center">
+        <div className="w-1/4 flex justify-end">
           <ReturnTopButton />
         </div>
       </main>
