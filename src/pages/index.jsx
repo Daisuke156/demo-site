@@ -26,7 +26,7 @@ const Home = () => {
             </h3>
           </div>
         </div>
-        <div className="flex justify-end h-3/5">
+        <div className="flex justify-end h-3/5 bg-gray200">
           <ReturnTopButton />
         </div>
       </main>
