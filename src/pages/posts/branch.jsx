@@ -8,7 +8,11 @@ const Branch = () => {
           <a>東京支店</a>
         </Link>
       </div>
-      <div></div>
+      <div>
+        <Link href="/">
+          <a>大阪支店</a>
+        </Link>
+      </div>
       <div></div>
       <div></div>
     </>
