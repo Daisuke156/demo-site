@@ -34,7 +34,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/">
+          <Link href="posts/human">
             <a>**の人材育成について</a>
           </Link>
         </div>
@@ -44,17 +44,17 @@ const Footer = () => {
           </Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/">
+          <Link href="posts/partner">
             <a>パートナー募集</a>
           </Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/">
+          <Link href="posts/personal">
             <a>個人情報保護方針</a>
           </Link>
         </div>
         <div className="px-5">
-          <Link href="/">
+          <Link href="posts/inqury">
             <a>お問合わせ</a>
           </Link>
         </div>
