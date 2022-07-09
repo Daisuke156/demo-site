@@ -6,7 +6,11 @@ const Header = () => {
   return (
     <>
       <div className="flex justify-between bg-red-700 border-b-4 border-b-white">
-        <div className="text-red-300 text-4xl py-10 px-20">Demo Site</div>
+        <div className="text-red-300 text-4xl py-10 px-20">
+          <Link href="/">
+            <a>Demo Site</a>
+          </Link>
+        </div>
         <div className="my-10">
           <div className="text-black bg-white border-2 px-20 mb-5 mr-20">
             電話受付時間:平日9:00〜17:00
