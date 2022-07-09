@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Branch from "../pages/posts/branch";
+import Branch from "./branch";
 
 const Sidevar = () => {
   return (
