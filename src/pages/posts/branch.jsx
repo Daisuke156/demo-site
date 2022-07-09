@@ -4,7 +4,7 @@ const Branch = () => {
   return (
     <>
       <div>
-        <Link href="/">
+        <Link href="/office/Tokyo">
           <a>東京事務所(本部)</a>
         </Link>
         <h1>〒105-0000</h1>
@@ -12,7 +12,7 @@ const Branch = () => {
         <h3>03-1111-2222(代)</h3>
       </div>
       <div>
-        <Link href="/">
+        <Link href="/office/Osaka">
           <a>大阪事務所</a>
         </Link>
         <h1>〒562-0000</h1>
@@ -20,7 +20,7 @@ const Branch = () => {
         <h3>06-1111-2222</h3>
       </div>
       <div>
-        <Link href="/">
+        <Link href="/office/Nagoya">
           <a>名古屋事務所</a>
         </Link>
         <h1>〒460-0000</h1>
