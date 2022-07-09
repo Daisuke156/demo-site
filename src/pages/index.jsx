@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ReturnTopButton from "../components/Totop";
 import Sidevar from "../components/Sidevar";
 
 const Home = () => {
@@ -30,9 +29,6 @@ const Home = () => {
             </h3>
             <h4></h4>
           </div>
-        </div>
-        <div className="flex justify-end h-3/5 bg-gray-200 pr-20">
-          <ReturnTopButton />
         </div>
       </main>
       <Footer />

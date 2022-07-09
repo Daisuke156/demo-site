@@ -1,8 +1,12 @@
 import Link from "next/link";
+import ReturnTopButton from "../components/Totop";
 
 const Footer = () => {
   return (
     <>
+      <div className="flex justify-end bg-gray-200 pr-20">
+        <ReturnTopButton />
+      </div>
       <div className="text-0.5xl text-white py-10 flex justify-center bg-red-700">
         <div className="px-5 border-r-2 border-r-white">
           <Link href="posts/news">
