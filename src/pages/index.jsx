@@ -16,7 +16,7 @@ const Home = () => {
           <div className="w-1/6">
             <Sidevar />
           </div>
-          <div className="w-5/6 h-screen">
+          <div className="w-5/6 h-screen bg-blue-100">
             <h1 className="h-1/5">時空を超えた・・・</h1>
             <h1 className="h-1/5">業務内容</h1>
             <h2 className="h-1/5">ロゴ</h2>
