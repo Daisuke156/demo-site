@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import Sidevar2 from "../../components/Sidevar2";
+import Breadcrumbs from "nextjs-breadcrumbs";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Sidevar2 from "../components/Sidevar2";
 
 const Company = () => {
   return (
@@ -16,6 +17,7 @@ const Company = () => {
           <Sidevar2 />
         </div>
         <div>
+          <Breadcrumbs rootLabel="ホーム" />
           <div>会社概要</div>
           <div className="flex">
             <div>
