@@ -7,7 +7,7 @@ const News = () => {
       <Head>
         <title>最新情報</title>
       </Head>
-      <Breadcrumbs useDefaultStyle rootLabel="news" />
+      <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
       <div></div>
       <div></div>
       <div></div>
