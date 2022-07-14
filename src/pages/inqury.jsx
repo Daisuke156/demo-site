@@ -7,9 +7,16 @@ const Inqury = () => {
       <Head>
         <title>問い合わせフォーム</title>
       </Head>
-      <main>
-        <Breadcrumbs useDefaultStyle rootLabel="Home" />;
-      </main>
+      <Header />
+      <div className="flex">
+        <div className="w-1/3">
+          <Sidevar2 />
+        </div>
+        <div className="w-2/3">
+          <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
+          <div></div>
+        </div>
+      </div>
     </>
   );
 };

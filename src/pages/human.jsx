@@ -6,6 +6,16 @@ const Human = () => {
       <Head>
         <title>人材教育について</title>
       </Head>
+      <Header />
+      <div className="flex">
+        <div className="w-1/3">
+          <Sidevar2 />
+        </div>
+        <div className="w-2/3">
+          <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
+          <div></div>
+        </div>
+      </div>
     </>
   );
 };
