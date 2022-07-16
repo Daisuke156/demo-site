@@ -5,7 +5,7 @@ const Sidevar = () => {
   return (
     <>
       <div className="h-screen">
-        <div className="h-1/4 flex justify-between">
+        <div className="h-1/4 sm:text-sm flex justify-between">
           <div className="">最新情報</div>
           <div className="pr-10">
             <Link href="/">
@@ -13,7 +13,7 @@ const Sidevar = () => {
             </Link>
           </div>
         </div>
-        <div className="h-2/4 bg-lime-300">
+        <div className="h-2/4 bg-lime-300 sm:text-sm">
           事務所紹介
           <Branch />
         </div>
