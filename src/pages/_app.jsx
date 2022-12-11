@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 //   "/foo/[...bar]"  for pages/foo/[...bar].js
 const publicPages = [];
 
-function MyApp() {
+function MyApp({ Component, pageProps }) {
   // Get the pathname
   const { pathname } = useRouter();
 
@@ -26,9 +26,14 @@ function MyApp() {
       <Head>
         <title>nexst</title>
       </Head>
-      <Header />
-
-      <Footer />
+      {isPublicPage ? (
+        <Component {...pageProps} />
+      ) : (
+        <>
+          <Header />
+          <Footer />
+        </>
+      )}
     </>
   );
 }
