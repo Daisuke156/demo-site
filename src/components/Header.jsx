@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 
 const Header = () => {
   return (
@@ -17,14 +16,6 @@ const Header = () => {
           <div className="flex">
             <div className="text-white">フリーダイヤル</div>
             <div className="text-2xl text-white px-10">0120-111-222</div>
-            <div className="px-10">
-              <SignedOut>
-                <Link href="/sign-in">Sign in</Link>
-              </SignedOut>
-              <SignedIn>
-                <UserButton />
-              </SignedIn>
-            </div>
           </div>
         </div>
       </div>

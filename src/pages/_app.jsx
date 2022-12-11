@@ -1,11 +1,8 @@
 import "tailwindcss/tailwind.css";
-import {
-  ClerkProvider,
-  SignedIn,
-  SignedOut,
-  RedirectToSignIn,
-} from "@clerk/nextjs";
 import { useRouter } from "next/router";
+import Head from "next/head";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 //  List pages you want to be publicly accessible, or leave empty if
 //  every page requires authentication. Use this naming strategy:
@@ -15,7 +12,7 @@ import { useRouter } from "next/router";
 //   "/foo/[...bar]"  for pages/foo/[...bar].js
 const publicPages = [];
 
-function MyApp({ Component, pageProps }) {
+function MyApp() {
   // Get the pathname
   const { pathname } = useRouter();
 
@@ -25,20 +22,14 @@ function MyApp({ Component, pageProps }) {
   // If the current route is listed as public, render it directly
   // Otherwise, use Clerk to require authentication
   return (
-    <ClerkProvider>
-      {isPublicPage ? (
-        <Component {...pageProps} />
-      ) : (
-        <>
-          <SignedIn>
-            <Component {...pageProps} />
-          </SignedIn>
-          <SignedOut>
-            <RedirectToSignIn />
-          </SignedOut>
-        </>
-      )}
-    </ClerkProvider>
+    <>
+      <Head>
+        <title>nexst</title>
+      </Head>
+      <Header />
+
+      <Footer />
+    </>
   );
 }
 
