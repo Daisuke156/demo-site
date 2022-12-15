@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Breadcrumbs from "nextjs-breadcrumbs";
+import Header from "../components/Header";
+import Sidevar2 from "../components/Sidevar2";
 
 const Inqury = () => {
   return (

@@ -9,54 +9,34 @@ const Footer = () => {
       </div>
       <div className="text-0.5xl sm:text-sm text-white py-10 flex justify-center bg-red-700">
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/news">
-            <a>最新情報</a>
-          </Link>
+          <Link href="/news">最新情報</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/policy">
-            <a>**の理念</a>
-          </Link>
+          <Link href="/policy">**の理念</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/service">
-            <a>業務内容</a>
-          </Link>
+          <Link href="/service">業務内容</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/company">
-            <a>会社概要</a>
-          </Link>
+          <Link href="/company">会社概要</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/branch">
-            <a>事務所紹介</a>
-          </Link>
+          <Link href="/branch">事務所紹介</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/human">
-            <a>**の人材育成について</a>
-          </Link>
+          <Link href="/human">**の人材育成について</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/recruit">
-            <a>採用情報</a>
-          </Link>
+          <Link href="/recruit">採用情報</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/partner">
-            <a>パートナー募集</a>
-          </Link>
+          <Link href="/partner">パートナー募集</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/personal">
-            <a>個人情報保護方針</a>
-          </Link>
+          <Link href="/personal">個人情報保護方針</Link>
         </div>
         <div className="px-5">
-          <Link href="/inqury">
-            <a>お問合わせ</a>
-          </Link>
+          <Link href="/inqury">お問合わせ</Link>
         </div>
       </div>
     </>

@@ -5,9 +5,7 @@ const Header = () => {
     <>
       <div className="flex justify-between bg-red-700 border-b-4 border-b-white">
         <div className="text-red-300 sm:text-2xl text-8xl py-10 px-20">
-          <Link href="/">
-            <a>Demo Site</a>
-          </Link>
+          <Link href="/">Demo Site</Link>
         </div>
         <div className="my-10">
           <div className="text-black bg-white border-2 px-20 mb-5 mr-20">
@@ -21,34 +19,22 @@ const Header = () => {
       </div>
       <div className="flex justify-center py-5 bg-red-700 text-white">
         <div className="px-10 border-x-2 border-x-black">
-          <Link href="/news">
-            <a>最新情報</a>
-          </Link>
+          <Link href="/news">最新情報</Link>
         </div>
         <div className="px-10">
-          <Link href="/policy">
-            <a>**の理念</a>
-          </Link>
+          <Link href="/policy">**の理念</Link>
         </div>
         <div className="px-10 border-x-2 border-x-black">
-          <Link href="/service">
-            <a>業務内容</a>
-          </Link>
+          <Link href="/service">業務内容</Link>
         </div>
         <div className="px-10">
-          <Link href="/company">
-            <a>会社概要</a>
-          </Link>
+          <Link href="/company">会社概要</Link>
         </div>
         <div className="px-10 border-x-2 border-x-black">
-          <Link href="/recruit">
-            <a>採用情報</a>
-          </Link>
+          <Link href="/recruit">採用情報</Link>
         </div>
         <div className="px-10 border-r-2 border-r-black">
-          <Link href="/contact">
-            <a>お問い合わせ</a>
-          </Link>
+          <Link href="/contact">お問い合わせ</Link>
         </div>
       </div>
     </>

@@ -8,9 +8,7 @@ const Sidevar2 = () => {
         <div className="h-1/4 flex justify-between">
           <div className="">業務内容</div>
           <div className="">
-            <Link href="/">
-              <a>一覧を見る</a>
-            </Link>
+            <Link href="/">一覧を見る</Link>
           </div>
         </div>
         <div className="h-2/4 bg-lime-300">
