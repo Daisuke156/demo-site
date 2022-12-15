@@ -3,7 +3,7 @@ import Breadcrumbs from "nextjs-breadcrumbs";
 import Header from "../components/Header";
 import Sidevar2 from "../components/Sidevar2";
 
-const Inqury = () => {
+const Inquiry = () => {
   return (
     <>
       <Head>
@@ -22,4 +22,4 @@ const Inqury = () => {
     </>
   );
 };
-export default Inqury;
+export default Inquiry;

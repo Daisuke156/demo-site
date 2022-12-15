@@ -3,8 +3,11 @@ import Breadcrumbs from "nextjs-breadcrumbs";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar2 from "../components/Sidevar2";
+import { useRouter } from "next/router";
 
 const FirstPost = () => {
+  const router = useRouter();
+
   return (
     <>
       <Head>
@@ -33,6 +36,12 @@ const FirstPost = () => {
             <div className="flex">
               <div className="mx-10">電話受付時間:平日9:00〜17:00</div>
               <div>0120-111-222</div>
+            </div>
+            <div className="text-2xl my-20 mx-10">Webでのお問い合わせ</div>
+            <div className="font-bold bg-gray-100 mx-10 border-4 border-gray-400 text-center w-[200px]">
+              <button onClick={() => router.push("../inquiry")}>
+                入力フォームへ
+              </button>
             </div>
           </div>
         </div>
