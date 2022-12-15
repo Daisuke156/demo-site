@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Demo Site</title>
+        <title>Topページ</title>
       </Head>
       <Header />
       <main className="h-auto">
