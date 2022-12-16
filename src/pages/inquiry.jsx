@@ -11,10 +11,10 @@ const Inquiry = () => {
       </Head>
       <Header />
       <div className="flex">
-        <div className="w-1/3">
+        <div>
           <Sidevar2 />
         </div>
-        <div className="w-2/3">
+        <div className="">
           <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
           <div></div>
         </div>
