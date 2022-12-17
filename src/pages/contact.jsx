@@ -2,7 +2,7 @@ import Head from "next/head";
 import Breadcrumbs from "nextjs-breadcrumbs";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Sidevar2 from "../components/Sidevar2";
+import sidevar from "../components/sidevar";
 import { useRouter } from "next/router";
 
 const FirstPost = () => {
@@ -17,7 +17,7 @@ const FirstPost = () => {
         <Header />
         <div className="flex">
           <div>
-            <Sidevar2 />
+            <sidevar />
           </div>
           <div>
             <div>

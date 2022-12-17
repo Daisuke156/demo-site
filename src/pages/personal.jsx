@@ -9,7 +9,7 @@ const Parsonal = () => {
       <Header />
       <div className="flex">
         <div className="w-1/3">
-          <Sidevar2 />
+          <sidevar />
         </div>
         <div className="w-2/3">
           <Breadcrumbs useDefaultStyle rootLabel="ホーム" />

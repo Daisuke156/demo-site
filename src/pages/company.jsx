@@ -3,7 +3,7 @@ import Link from "next/link";
 import Breadcrumbs from "nextjs-breadcrumbs";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Sidevar2 from "../components/Sidevar2";
+import sidevar from "../components/sidevar";
 
 const Company = () => {
   return (
@@ -14,7 +14,7 @@ const Company = () => {
       <Header />
       <div className="flex">
         <div className="w-1/3">
-          <Sidevar2 />
+          <sidevar />
         </div>
         <div className="w-2/3">
           <Breadcrumbs rootLabel="ホーム" />
