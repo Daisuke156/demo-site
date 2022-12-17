@@ -1,4 +1,7 @@
 import Head from "next/head";
+import Breadcrumbs from "nextjs-breadcrumbs";
+import Header from "../../components/Header";
+import Sidevar from "../../components/sidevar";
 
 const Nagoya = () => {
   return (
@@ -8,10 +11,10 @@ const Nagoya = () => {
       </Head>
       <Header />
       <div className="flex">
-        <div className="w-1/3">
-          <sidevar />
+        <div className="w-1/6">
+          <Sidevar />
         </div>
-        <div className="w-2/3">
+        <div className="w-5/6">
           <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
           <div></div>
         </div>
