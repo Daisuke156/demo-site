@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Breadcrumbs from "nextjs-breadcrumbs";
 import Header from "../components/Header";
-import sidevar from "../components/sidevar";
+import Sidevar from "../components/Sidevar";
 
 const Inquiry = () => {
   return (
@@ -12,11 +12,10 @@ const Inquiry = () => {
       <Header />
       <div className="flex">
         <div>
-          <sidevar />
+          <Sidevar />
         </div>
         <div className="">
           <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
-          <div></div>
         </div>
       </div>
     </>
