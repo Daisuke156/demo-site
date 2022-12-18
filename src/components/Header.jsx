@@ -22,7 +22,7 @@ const Header = () => {
           <Link href="/news">最新情報</Link>
         </div>
         <div className="px-10">
-          <Link href="/policy">**の理念</Link>
+          <Link href="/policy">我が社の理念</Link>
         </div>
         <div className="px-10 border-x-2 border-x-black">
           <Link href="/service">業務内容</Link>
