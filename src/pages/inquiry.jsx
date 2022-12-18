@@ -15,7 +15,7 @@ const Inquiry = () => {
           <Sidevar />
         </div>
         <div className="">
-          <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
+          {/* <Breadcrumbs useDefaultStyle rootLabel="ホーム" /> */}
         </div>
       </div>
     </>
