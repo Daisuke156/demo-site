@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Breadcrumbs from "nextjs-breadcrumbs";
 
 const News = () => {
   return (
@@ -7,7 +6,6 @@ const News = () => {
       <Head>
         <title>最新情報</title>
       </Head>
-      <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
       <div></div>
       <div></div>
       <div></div>

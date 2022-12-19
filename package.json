@@ -24,13 +24,9 @@
     "date-fns": "^2.29.3",
     "dayjs": "^1.11.7",
     "embla-carousel-react": "^7.0.5",
-    "gray-matter": "^4.0.3",
     "next": "^13.0.8-canary.0",
-    "nextjs-breadcrumbs": "^1.1.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "remark": "^14.0.2",
-    "remark-html": "^15.0.1",
     "sass": "^1.56.2"
   },
   "devDependencies": {

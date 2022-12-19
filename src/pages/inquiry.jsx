@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Breadcrumbs from "nextjs-breadcrumbs";
 import Header from "../components/Header";
 import Sidevar from "../components/Sidevar";
 import { useState } from "react";
@@ -20,7 +19,6 @@ const Inquiry = () => {
         </div>
         <div className="mx-20 my-10">
           <div className="my-10 font-bold text-4xl">お問い合わせ</div>
-          {/* <Breadcrumbs useDefaultStyle rootLabel="ホーム" /> */}
           <TextInput
             placeholder="Your name"
             label="Full name"
