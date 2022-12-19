@@ -12,7 +12,6 @@ const Partner = () => {
           <sidevar />
         </div>
         <div className="w-2/3">
-          <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
           <div></div>
         </div>
       </div>
