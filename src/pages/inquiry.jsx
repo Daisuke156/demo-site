@@ -2,17 +2,14 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Sidevar from "../components/Sidevar";
 import { useState } from "react";
-import {
-  NativeSelect,
-  NumberInput,
-  TextInput,
-  Textarea,
-  Button,
-} from "@mantine/core";
+import { NativeSelect, NumberInput, TextInput, Textarea } from "@mantine/core";
 import { IconAt } from "@tabler/icons";
 
 const Inquiry = () => {
   const [value, setValue] = useState("");
+  const clickOn = () => {
+    alert("alert");
+  };
   return (
     <>
       <Head>
@@ -51,9 +48,12 @@ const Inquiry = () => {
               withAsterisk
             />
             <Textarea placeholder="Your comment" label="Your comment" />
-            <Button className="border-2 border-gray-500 bg-pink-200">
+            <button
+              onClick={clickOn}
+              className="border-2 border-gray-500 bg-pink-200"
+            >
               ボタン
-            </Button>
+            </button>
           </div>
         </div>
       </div>
