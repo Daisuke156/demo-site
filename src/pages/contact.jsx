@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Breadcrumbs from "nextjs-breadcrumbs";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useRouter } from "next/router";
@@ -16,13 +15,10 @@ const FirstPost = () => {
       <div>
         <Header />
         <div className="flex bg-pink-50">
-          <div>
+          <div className="w-1/6">
             <Sidevar />
           </div>
-          <div className="mx-10">
-            {/* <div>
-              <Breadcrumbs rootLabel="ホーム" />
-            </div> */}
+          <div className="mx-10 w-5/6">
             <div className="text-4xl font-bold my-10">お問い合わせ方法</div>
             <div className="text-2xl mx-10 mb-5">お電話でのお問い合わせ</div>
             <div className="flex">
