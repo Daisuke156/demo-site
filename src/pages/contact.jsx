@@ -14,7 +14,7 @@ const FirstPost = () => {
       </Head>
       <div>
         <Header />
-        <div className="flex bg-pink-50">
+        <div className="flex bg-lime-100">
           <div className="w-1/6">
             <Sidevar />
           </div>

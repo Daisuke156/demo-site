@@ -17,7 +17,7 @@ const Inquiry = () => {
       </Head>
       <Header />
       <div>
-        <div className="flex">
+        <div className="flex bg-lime-100">
           <div className="w-1/6">
             <Sidevar />
           </div>
@@ -50,7 +50,7 @@ const Inquiry = () => {
             <Textarea placeholder="Your comment" label="Your comment" />
             <button
               onClick={clickOn}
-              className="border-2 border-gray-500 bg-pink-200"
+              className="border-2 my-10 border-gray-500 bg-pink-200"
             >
               ボタン
             </button>
