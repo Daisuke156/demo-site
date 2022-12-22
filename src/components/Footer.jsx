@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href="/news">最新情報</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/policy">**の理念</Link>
+          <Link href="/policy">我が社の理念</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
           <Link href="/service">業務内容</Link>
@@ -24,7 +24,7 @@ const Footer = () => {
           <Link href="/branch">事務所紹介</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
-          <Link href="/human">**の人材育成について</Link>
+          <Link href="/human">人材育成について</Link>
         </div>
         <div className="px-5 border-r-2 border-r-white">
           <Link href="/recruit">採用情報</Link>

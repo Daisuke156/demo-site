@@ -10,19 +10,18 @@ const FirstPost = () => {
   return (
     <>
       <Head>
-        <title>お問い合わせ</title>
+        <title>お問い合わせについて</title>
       </Head>
       <div>
         <Header />
-        <div className="flex bg-lime-100">
+        <div className="flex bg-lime-100 h-screen">
           <div className="w-1/6">
             <Sidevar />
           </div>
           <div className="mx-10 w-5/6">
-            <div className="text-4xl font-bold my-10">お問い合わせ方法</div>
+            <div className="text-4xl font-bold my-20">お問い合わせ方法</div>
             <div className="text-2xl mx-10 mb-5">お電話でのお問い合わせ</div>
-            <div className="flex">
-              <div className="mx-10">ロゴ</div>
+            <div className="mx-10 font-bold">
               <div>株式会社**</div>
             </div>
             <div className="flex">
@@ -36,7 +35,7 @@ const FirstPost = () => {
             <div className="text-2xl my-20 mx-10">
               Webフォームでのお問い合わせ
             </div>
-            <div className="font-bold bg-gray-100 mx-10 border-4 border-gray-400 text-center w-[200px]">
+            <div className="font-bold my-20 bg-gray-100 mx-10 border-4 border-gray-400 text-center w-[200px]">
               <button onClick={() => router.push("../inquiry")}>
                 入力フォームへ
               </button>
