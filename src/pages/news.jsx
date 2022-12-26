@@ -7,8 +7,6 @@ const News = () => {
         <title>最新情報</title>
       </Head>
       <div></div>
-      <div></div>
-      <div></div>
     </>
   );
 };
