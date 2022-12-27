@@ -6,7 +6,9 @@ const News = () => {
       <Head>
         <title>最新情報</title>
       </Head>
-      <div></div>
+      <div className="h-screen">
+        <div></div>
+      </div>
     </>
   );
 };
