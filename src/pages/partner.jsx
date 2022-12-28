@@ -8,10 +8,10 @@ const Partner = () => {
       </Head>
       <Header />
       <div className="flex">
-        <div className="w-1/3">
+        <div className="w-1/6">
           <sidevar />
         </div>
-        <div className="w-2/3">
+        <div className="w-5/6">
           <div></div>
         </div>
       </div>
