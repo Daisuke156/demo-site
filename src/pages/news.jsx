@@ -13,7 +13,7 @@ const News = () => {
         <div className="w-1/6">
           <Sidevar />
         </div>
-        <div></div>
+        <div>最新情報</div>
       </div>
     </>
   );
