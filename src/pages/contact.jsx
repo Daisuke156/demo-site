@@ -3,10 +3,18 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useRouter } from "next/router";
 import Sidevar from "../components/sidevar";
+import { Breadcrumbs, Anchor } from "@mantine/core";
 
 const FirstPost = () => {
   const router = useRouter();
-
+  const items = [
+    { title: "トップ", href: "/" },
+    { title: "お問い合わせ方法", href: "/contact" },
+  ].map((item, index) => (
+    <Anchor href={item.href} key={index}>
+      {item.title}
+    </Anchor>
+  ));
   return (
     <>
       <Head>
@@ -18,7 +26,8 @@ const FirstPost = () => {
           <div className="w-1/6">
             <Sidevar />
           </div>
-          <div className="mx-10 w-5/6">
+          <div className="mx-20 my-10 w-5/6">
+            <Breadcrumbs>{items}</Breadcrumbs>
             <div className="text-4xl font-bold my-20">お問い合わせ方法</div>
             <div className="text-2xl mx-10 mb-5">お電話でのお問い合わせ</div>
             <div className="mx-10 font-bold">
