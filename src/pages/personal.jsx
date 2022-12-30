@@ -1,4 +1,7 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Sidevar from "../components/sidevar";
 
 const Parsonal = () => {
   return (
@@ -7,15 +10,15 @@ const Parsonal = () => {
         <title>個人情報保護について</title>
       </Head>
       <Header />
-      <div className="flex">
+      <div className="flex h-screen">
         <div className="w-1/6">
-          <sidevar />
+          <Sidevar />
         </div>
         <div className="w-5/6">
-          <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
           <div></div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

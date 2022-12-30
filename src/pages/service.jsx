@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 
@@ -15,6 +16,7 @@ export default function FirstPost() {
         </div>
         <div className="w-5/6"></div>
       </div>
+      <Footer />
     </>
   );
 }
