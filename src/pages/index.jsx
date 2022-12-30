@@ -17,8 +17,8 @@ const Home = () => {
             <Sidevar />
           </div>
           <div className="w-5/6">
-            <div className="h-3/5 bg-pink-200">業務内容</div>
-            <h2 className="h-2/5 bg-red-50">
+            <div className="h-[380px] bg-pink-200">業務内容</div>
+            <h2 className="h-[300px] bg-red-50">
               システム構築、運用を主業務としています。
               <br />
               システムエンジニアをやる気のある方を採用募集しております。東京、名古屋、神戸と全国に展開しています。

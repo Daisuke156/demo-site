@@ -4,7 +4,7 @@ import Branch from "./branch";
 const Sidevar = () => {
   return (
     <>
-      <div className="h-screen">
+      <div className="h-full">
         <div className="h-1/4 sm:text-sm text-2xl flex justify-between bg-gray-200">
           <div className="font-bold">最新情報</div>
           <div className="pr-10">
