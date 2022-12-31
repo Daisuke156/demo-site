@@ -22,7 +22,7 @@ const FirstPost = () => {
       </Head>
       <div>
         <Header />
-        <div className="flex bg-lime-100 h-screen">
+        <div className="flex bg-lime-100 h-full">
           <div className="w-1/6">
             <Sidevar />
           </div>

@@ -39,7 +39,6 @@ const Inquiry = () => {
           </div>
           <div className="mx-20 my-10 w-5/6">
             <Breadcrumbs>{items}</Breadcrumbs>
-            {/* <Breadcrumbs separator="→">{items}</Breadcrumbs> */}
             <div className="my-10 font-bold text-4xl">お問い合わせ</div>
             <TextInput
               placeholder="Your name"

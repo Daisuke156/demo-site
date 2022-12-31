@@ -1,4 +1,8 @@
 import Head from "next/head";
+import Link from "next/link";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Sidevar from "../components/sidevar";
 
 export default function FirstPost() {
   return (
@@ -6,9 +10,31 @@ export default function FirstPost() {
       <Head>
         <title>採用情報</title>
       </Head>
-      <main className="h-screen">
-        <div className="text-4xl">現在は募集していません。</div>
-      </main>
+      <Header />
+      <div className="flex h-screen">
+        <div className="w-1/6">
+          <Sidevar />
+        </div>
+        <div className="w-5/6 px-20 bg-lime-100">
+          <div>
+            <div className="my-10 text-4xl font-bold">採用情報</div>
+            <div className="mb-10">経験者の方</div>
+            <h1>開発エンジニア</h1>
+            <h2>フロント・バックエンド開発</h2>
+            <h3>使用言語</h3>
+            <h1>業務エンジニア</h1>
+            <h2>基幹系開発</h2>
+            <h3>使用言語</h3>
+            <h3>ヘルプデスク</h3>
+            <Link href="/">応募ページへ</Link>
+            <div></div>
+            <div className="my-20">業界未経験の方</div>
+            <Link href="/">応募ページへ</Link>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </>
   );
 }
