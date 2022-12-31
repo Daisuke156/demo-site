@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 
-export default function FirstPost() {
+const service = () => {
   return (
     <>
       <Head>
@@ -16,13 +16,14 @@ export default function FirstPost() {
         </div>
         <div className="w-5/6 py-10 px-20">
           <div className="mb-10 text-4xl font-bold">業務内容</div>
-          <div>開発</div>
-          <div>業務系</div>
-          <div>ヘルプデスク</div>
-          <div>オペレータ</div>
+          <div className="my-10 text-2xl">開発</div>
+          <div className="my-10 text-2xl">業務系</div>
+          <div className="my-10 text-2xl">ヘルプデスク</div>
+          <div className="my-10 text-2xl">オペレータ</div>
         </div>
       </div>
       <Footer />
     </>
   );
-}
+};
+export default service;

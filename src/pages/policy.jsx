@@ -14,7 +14,7 @@ const Policy = () => {
         <title>当社の理念</title>
       </Head>
       <Header />
-      <div className="flex">
+      <div className="flex h-full">
         <div className="w-1/6">
           <Sidevar />
         </div>
@@ -26,7 +26,7 @@ const Policy = () => {
             Illo harum omnis natus vel ullam expedita pariatur doloribus dicta,
             minus iste sit!
           </div>
-          <div className="flex">
+          <div className="flex justify-between">
             <Button
               className="bg-blue-500 my-20"
               onClick={() => setOpened((o) => !o)}
@@ -42,19 +42,21 @@ const Policy = () => {
                 doloribus dicta, minus iste sit!
               </div>
             </Collapse>
-            <div className="my-20 mx-40 text-xl hover:underline hover:text-red-400">
+            <div className="my-20 mx-10 text-xl hover:underline hover:text-red-400">
               <Link href="/">外部リンク</Link>
             </div>
           </div>
-          <AspectRatio ratio={16 / 9}>
-            <iframe
-              src="https://www.youtube.com/embed/Dorf8i6lCuk"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </AspectRatio>
+          <div className="mb-10">
+            <div className="text-xl">現場風景</div>
+            <AspectRatio ratio={16 / 9}>
+              <iframe
+                src="https://www.youtube.com/embed/Dorf8i6lCuk"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </AspectRatio>
+          </div>
           <h1></h1>
           <h2></h2>
         </div>
