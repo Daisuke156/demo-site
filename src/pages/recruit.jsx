@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 
-export default function FirstPost() {
+const recruit = () => {
   return (
     <>
       <Head>
@@ -26,10 +26,10 @@ export default function FirstPost() {
             <h2>基幹系開発</h2>
             <h3>使用言語</h3>
             <h3>ヘルプデスク</h3>
-            <Link href="/">応募ページへ</Link>
+            <Link href="/recruit/kaihatu">応募ページへ</Link>
             <div></div>
             <div className="my-20">業界未経験の方</div>
-            <Link href="/">応募ページへ</Link>
+            <Link href="/recruit/non">応募ページへ</Link>
             <div></div>
           </div>
         </div>
@@ -37,4 +37,5 @@ export default function FirstPost() {
       <Footer />
     </>
   );
-}
+};
+export default recruit;
