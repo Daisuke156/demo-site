@@ -21,7 +21,7 @@ const kaihatu = () => {
           <div>
             <div className="my-10 text-4xl font-bold">応募フォーム</div>
             <div className="mb-10 font-bold text-2xl">経験者の方</div>
-            <div className="bg-blue-500 w-[130px]">
+            <div className="bg-blue-500 w-[100px]">
               <Modal
                 opened={opened}
                 onClose={() => setOpened(false)}
@@ -34,7 +34,7 @@ const kaihatu = () => {
               </Modal>
 
               <Group position="center">
-                <Button onClick={() => setOpened(true)}>Open Modal</Button>
+                <Button onClick={() => setOpened(true)}>募集要項</Button>
               </Group>
             </div>
           </div>
