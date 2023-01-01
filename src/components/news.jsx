@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { List, ScrollArea } from "@mantine/core";
 
 const News = () => {
