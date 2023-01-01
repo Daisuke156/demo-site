@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Branch from "./branch";
-import { Card, Image, Text, Badge, Button, Group } from "@mantine/core";
+import { Card, Image } from "@mantine/core";
 
 const Sidevar = () => {
   return (

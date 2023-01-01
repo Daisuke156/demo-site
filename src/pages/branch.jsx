@@ -13,7 +13,7 @@ const Branch = () => {
       <div className="h-screen bg-blue-100 px-10">
         <div className="font-bold text-4xl py-10">各事業所紹介</div>
         <div className="mb-20 px-10">
-          ***の事業所は全国にございます。詳細は以下のリンクからご確認ください。
+          当社の事業所は全国にございます。詳細は以下のリンクからご確認ください。
         </div>
         <div className="flex justify-evenly">
           <div className="border-gray-400 border-4 w-[200px]">
