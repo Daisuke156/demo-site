@@ -19,7 +19,7 @@ const Home = () => {
           </div>
           <div className="w-5/6">
             <div className="h-[480px] bg-pink-200">
-              <div>業務内容</div>
+              <div className="text-4xl py-10 px-10 font-bold">業務内容</div>
               <div className="my-10 bg-blue-50">
                 <Carousel
                   slideSize="70%"
@@ -36,13 +36,13 @@ const Home = () => {
                 </Carousel>
               </div>
             </div>
-            <h2 className="h-[400px] bg-red-50">
+            <div className="h-[400px] bg-red-50">
               システム構築、運用を主業務としています。
               <br />
               システムエンジニアをやる気のある方を採用募集しております。東京、名古屋、神戸と全国に展開しています。
               <br />
               フリーダイヤル:0120-111-222
-            </h2>
+            </div>
           </div>
         </div>
       </main>
