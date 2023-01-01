@@ -11,7 +11,7 @@ const Home = () => {
         <title>Topページ</title>
       </Head>
       <Header />
-      <main className="h-screen">
+      <main className="h-full">
         <div className="flex">
           <div className="w-1/6">
             <Sidevar />
