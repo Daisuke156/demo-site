@@ -14,6 +14,9 @@ const News = () => {
           <Sidevar />
         </div>
         <div>最新情報</div>
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
     </>
   );
