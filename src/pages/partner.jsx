@@ -11,7 +11,7 @@ const Partner = () => {
         <title>パートナー募集</title>
       </Head>
       <Header />
-      <div className="flex h-full bg-lime-200">
+      <div className="flex h-full bg-lime-100">
         <div className="w-1/6">
           <Sidevar />
         </div>

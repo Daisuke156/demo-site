@@ -10,7 +10,7 @@ const service = () => {
         <title>業務内容</title>
       </Head>
       <Header />
-      <div className="flex bg-lime-200 h-full pb-40">
+      <div className="flex bg-lime-100 h-full pb-40">
         <div className="w-1/6">
           <Sidevar />
         </div>
