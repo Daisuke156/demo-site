@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Branch from "./branch";
+import Branch from "./Branch";
 import { Card, Image } from "@mantine/core";
-import News from "./news";
+import News from "./News";
 
 const Sidevar = () => {
   return (
