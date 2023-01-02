@@ -23,7 +23,7 @@ const Company = () => {
               <h1>会社名：</h1>
               <h2>株式会社**</h2>
             </div>
-            <h1>所在地:東京都※※区</h1>
+            <h1>所在地:東京都港区</h1>
             <div className="h-[300px] w-[300px]">
               <AspectRatio ratio={100 / 100}>
                 <iframe
