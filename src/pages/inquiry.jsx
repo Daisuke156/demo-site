@@ -17,9 +17,6 @@ import Footer from "../components/Footer";
 const Inquiry = () => {
   const [visible, setVisible] = useState(false);
   const [value, setValue] = useState("");
-  const clickOn = () => {
-    alert("alert");
-  };
   const items = [
     { title: "トップ", href: "/" },
     { title: "お問い合わせ方法", href: "/contact" },
@@ -29,6 +26,7 @@ const Inquiry = () => {
       {item.title}
     </Anchor>
   ));
+
   return (
     <>
       <Head>
