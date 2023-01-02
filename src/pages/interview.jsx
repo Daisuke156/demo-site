@@ -10,7 +10,7 @@ const Interview = () => {
         <title>代表者の言葉</title>
       </Head>
       <Header />
-      <div className="flex bg-lime-200">
+      <div className="flex bg-lime-100">
         <div className="w-1/6">
           <Sidevar />
         </div>
