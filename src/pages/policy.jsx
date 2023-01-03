@@ -19,7 +19,7 @@ const Policy = () => {
           <div className="w-1/6">
             <Sidevar />
           </div>
-          <div className="w-5/6 px-20 bg-lime-100">
+          <div className="w-5/6 px-20 bg-lime-100 pb-40">
             <div className="my-10 text-4xl font-bold">当社の理念</div>
             <div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
@@ -48,7 +48,7 @@ const Policy = () => {
             </div>
             <div className="flex justify-between">
               <div className="mb-10 w-1/2">
-                <div className="text-xl">代表者インタビュー</div>
+                <div className="text-xl">当社の取り組み</div>
                 <AspectRatio ratio={16 / 9}>
                   <iframe
                     src="https://www.youtube.com/embed/Dorf8i6lCuk"
