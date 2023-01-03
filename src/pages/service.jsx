@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 
-const service = () => {
+const Service = () => {
   return (
     <>
       <Head>
@@ -38,4 +38,4 @@ const service = () => {
     </>
   );
 };
-export default service;
+export default Service;

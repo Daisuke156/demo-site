@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 
-const recruit = () => {
+const Recruit = () => {
   return (
     <>
       <Head>
@@ -47,4 +47,4 @@ const recruit = () => {
     </>
   );
 };
-export default recruit;
+export default Recruit;
