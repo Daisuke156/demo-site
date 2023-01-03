@@ -42,13 +42,13 @@ const Policy = () => {
                   pariatur doloribus dicta, minus iste sit!
                 </div>
               </Collapse>
-              <div className="my-10 text-blue-300 text-xl hover:underline hover:text-red-400">
+              <div className="my-10 text-blue-400 text-xl hover:underline hover:text-red-400">
                 <Link href="/interview">外部リンク</Link>
               </div>
             </div>
             <div className="flex justify-between">
               <div className="mb-10 w-1/2">
-                <div className="text-xl">当社の取り組み</div>
+                <div className="text-xl mb-10 text-center">当社の取り組み</div>
                 <AspectRatio ratio={16 / 9}>
                   <iframe
                     src="https://www.youtube.com/embed/Dorf8i6lCuk"
@@ -59,7 +59,7 @@ const Policy = () => {
                 </AspectRatio>
               </div>
               <div className="mb-10 w-1/2 mx-10">
-                <div className="text-xl">現場風景</div>
+                <div className="text-xl mb-10 text-center">現場風景</div>
                 <AspectRatio ratio={16 / 9}>
                   <iframe
                     src="https://www.youtube.com/embed/Dorf8i6lCuk"
