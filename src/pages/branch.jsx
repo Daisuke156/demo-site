@@ -21,7 +21,7 @@ const Branch = () => {
               <Link href="/office/Tokyo">東京事務所(本部)</Link>
             </div>
             <h1>〒105-0000</h1>
-            <h2>東京都＊＊区</h2>
+            <h2>東京都港区</h2>
             <h3>03-1111-2222(代)</h3>
           </div>
           <div className="border-gray-400 border-4 w-[200px]">

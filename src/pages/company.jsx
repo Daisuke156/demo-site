@@ -48,7 +48,7 @@ const Company = () => {
               <h1>代表取締役</h1>
             </div>
             <div className="my-10">
-              <h1>決算期</h1>
+              <h1>決算期:3月</h1>
             </div>
             <div className="my-10">
               <h1>従業員数</h1>
