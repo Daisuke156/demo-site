@@ -6,9 +6,9 @@ import News from "./News";
 const Sidevar = () => {
   return (
     <>
-      <div className="h-screen">
+      <div className="h-auto">
         <div className="bg-gray-200">
-          <div className="h-1/5 sm:text-sm text-2xl flex justify-between">
+          <div className="h-1/4 sm:text-sm text-2xl flex justify-between">
             <div className="font-bold">最新情報</div>
             <div className="pr-10">
               <Link href="/news">一覧</Link>
@@ -16,11 +16,11 @@ const Sidevar = () => {
           </div>
           <News />
         </div>
-        <div className="h-3/5 bg-lime-300 sm:text-sm">
+        <div className="h-2/4 bg-lime-300 sm:text-sm">
           <div className="font-bold text-xl">事務所紹介</div>
           <Branch />
         </div>
-        <div className="h-1/5bg-lime-300">
+        <div className="h-1/4 bg-blue-200">
           <div className="text-sm font-bold">Pマーク</div>
           <div>
             <Card shadow="sm" p="lg" radius="md" withBorder>

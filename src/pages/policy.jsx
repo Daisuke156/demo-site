@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 import { useState } from "react";
-import { AspectRatio, Button, Collapse } from "@mantine/core";
+import { AspectRatio, Button, Card, Collapse, Image } from "@mantine/core";
 
 const Policy = () => {
   const [opened, setOpened] = useState(false);
@@ -35,11 +35,24 @@ const Policy = () => {
                 代表からの言葉
               </Button>
               <Collapse in={opened}>
-                <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Itaque rerum aut fugiat, distinctio blanditiis voluptatum
-                  debitis sequi. Illo harum omnis natus vel ullam expedita
-                  pariatur doloribus dicta, minus iste sit!
+                <div className="flex">
+                  <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Itaque rerum aut fugiat, distinctio blanditiis voluptatum
+                    debitis sequi. Illo harum omnis natus vel ullam expedita
+                    pariatur doloribus dicta, minus iste sit!
+                  </div>
+                  <div>
+                    <Card shadow="sm" p="lg" radius="md" withBorder>
+                      <Card.Section>
+                        <Image
+                          src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80"
+                          height={150}
+                          alt="Norway"
+                        />
+                      </Card.Section>
+                    </Card>
+                  </div>
                 </div>
               </Collapse>
               <div className="my-10 text-blue-400 text-xl hover:underline hover:text-red-400">
