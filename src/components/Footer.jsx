@@ -40,7 +40,7 @@ const Footer = () => {
             <Link href="/contact">お問合わせ</Link>
           </div>
         </div>
-        <div className="text-center text-white pt-[5px] pb-5">2022</div>
+        <div className="text-center text-white pt-[5px] pb-5">2022©️</div>
       </div>
     </>
   );

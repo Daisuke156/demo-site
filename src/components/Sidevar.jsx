@@ -11,7 +11,7 @@ const Sidevar = () => {
           <div className="h-1/5 sm:text-sm text-2xl flex justify-between">
             <div className="font-bold">最新情報</div>
             <div className="pr-10">
-              <Link href="/">一覧</Link>
+              <Link href="/news">一覧</Link>
             </div>
           </div>
           <News />

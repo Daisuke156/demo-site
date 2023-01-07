@@ -19,6 +19,7 @@ const Home = () => {
           <div className="w-5/6">
             <div className="h-[480px] bg-red-50">
               <div className="text-4xl py-10 px-10 font-bold">業務内容</div>
+              <div></div>
             </div>
             <div className="px-10 h-[400px] bg-red-50">
               システム構築、運用を主業務としています。
