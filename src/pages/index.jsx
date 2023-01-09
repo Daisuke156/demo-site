@@ -19,7 +19,7 @@ const Home = () => {
           <div className="w-5/6">
             <div className="bg-red-100">
               <div className="text-4xl py-10 px-10 font-bold">業務内容</div>
-              <div className="px-10">
+              <div className="px-10 text-xl">
                 システム構築、運用を主業務としています。
                 <br />
                 システムエンジニアをやる気のある方を採用募集しております。東京、名古屋、大阪と全国に展開しています。
