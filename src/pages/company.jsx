@@ -21,9 +21,8 @@ const Company = () => {
           <div>
             <div className="flex justify-between">
               <div>
-                <div className="flex text-2xl">
-                  <h1>会社名：</h1>
-                  <h2>株式会社**</h2>
+                <div className="text-2xl">
+                  <h1>会社名:株式会社**</h1>
                 </div>
                 <div className="my-10">
                   <h1>設立:1987年6月</h1>
