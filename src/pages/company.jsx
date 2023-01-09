@@ -58,7 +58,15 @@ const Company = () => {
             </div>
             <div className="my-10">
               <h1>取引先</h1>
-              <Link href="/">※※※株式会社</Link>
+              <div className="hover:text-red-500">
+                <Link href="/">※※※株式会社</Link>
+              </div>
+              <div className="hover:text-red-500">
+                <Link href="/">株式会社***</Link>
+              </div>
+              <div className="hover:text-red-500">
+                <Link href="/">※※※株式会社</Link>
+              </div>
             </div>
           </div>
         </div>

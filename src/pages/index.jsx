@@ -11,22 +11,21 @@ const Home = () => {
         <title>Topページ</title>
       </Head>
       <Header />
-      <main className="h-full">
+      <main className="h-full bg-red-100">
         <div className="flex">
           <div className="w-1/6">
             <Sidevar />
           </div>
           <div className="w-5/6">
-            <div className="h-[480px] bg-red-50">
+            <div className="bg-red-100">
               <div className="text-4xl py-10 px-10 font-bold">業務内容</div>
-              <div></div>
-            </div>
-            <div className="px-10 h-[400px] bg-red-50">
-              システム構築、運用を主業務としています。
-              <br />
-              システムエンジニアをやる気のある方を採用募集しております。東京、名古屋、神戸と全国に展開しています。
-              <br />
-              フリーダイヤル:0120-111-222
+              <div className="px-10">
+                システム構築、運用を主業務としています。
+                <br />
+                システムエンジニアをやる気のある方を採用募集しております。東京、名古屋、大阪と全国に展開しています。
+                <br />
+                フリーダイヤル:0120-111-222
+              </div>
             </div>
           </div>
         </div>
