@@ -6,23 +6,11 @@ import Footer from "../components/Footer";
 const ITEMS = [
   {
     href: "/",
-    title: "12月",
+    title: "1月",
   },
   {
     href: "/",
-    title: "11月",
-  },
-  {
-    href: "/",
-    title: "10月",
-  },
-  {
-    href: "/",
-    title: "9月",
-  },
-  {
-    href: "/",
-    title: "8月",
+    title: "22年下半期",
   },
   {
     href: "/",
