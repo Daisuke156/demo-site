@@ -6,6 +6,10 @@ import Footer from "../components/Footer";
 const ITEMS = [
   {
     href: "/",
+    title: "2月",
+  },
+  {
+    href: "/",
     title: "1月",
   },
   {
