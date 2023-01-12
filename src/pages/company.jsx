@@ -1,9 +1,23 @@
 import { AspectRatio } from "@mantine/core";
 import Head from "next/head";
-import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/Sidevar";
+
+const ITEMS = [
+  {
+    href: "/",
+    title: "**株式会社",
+  },
+  {
+    href: "/",
+    title: "株式会社**",
+  },
+  {
+    href: "/",
+    title: "**株式会社",
+  },
+];
 
 const Company = () => {
   return (
@@ -61,16 +75,18 @@ const Company = () => {
             <div className="my-10">
               <h1>取引銀行</h1>
             </div>
-            <div className="my-10">
+            <div className="mt-10 mb-40">
               <h1>取引先</h1>
-              <div className="hover:text-red-500 my-5">
-                <Link href="/">※※※株式会社</Link>
-              </div>
-              <div className="hover:text-red-500 my-5">
-                <Link href="/">株式会社***</Link>
-              </div>
-              <div className="hover:text-red-500 my-5">
-                <Link href="/">※※※株式会社</Link>
+              <div className="px-5">
+                {ITEMS.map((item) => {
+                  return (
+                    <div className="text-sm my-5 text-blue-600 w-[500px] hover:underline hover:text-red-600">
+                      <a href={item.href}>
+                        <li>{item.title}</li>
+                      </a>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>
