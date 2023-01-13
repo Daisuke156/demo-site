@@ -37,7 +37,7 @@ const News = () => {
           <div className="my-20">
             {ITEMS.map((item) => {
               return (
-                <div className="text-2xl my-10 text-blue-600 w-[500px] hover:underline hover:text-red-600">
+                <div className="text-2xl mx-10 my-10 text-blue-600 w-[500px] hover:underline hover:text-red-600">
                   <a href={item.href}>
                     <li>{item.title}</li>
                   </a>
