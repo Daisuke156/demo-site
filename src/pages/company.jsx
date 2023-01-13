@@ -1,5 +1,6 @@
 import { AspectRatio } from "@mantine/core";
 import Head from "next/head";
+import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/Sidevar";
@@ -52,7 +53,7 @@ const Company = () => {
                 </div>
               </div>
               <div>
-                <h1>所在地:東京都港区</h1>
+                <h1>所在地:東京都港区***</h1>
                 <div className="h-[300px] w-[300px]">
                   <AspectRatio ratio={100 / 100}>
                     <iframe
@@ -65,6 +66,9 @@ const Company = () => {
             </div>
             <div>
               <h1>代表取締役</h1>
+              <h2>
+                <Link href="/">Tweeter</Link>
+              </h2>
             </div>
             <div className="my-10">
               <h1>決算期:3月</h1>
