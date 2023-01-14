@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Breadcrumbs from "nextjs-breadcrumbs";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Sidevar from "../../components/sidevar";
 
@@ -15,10 +15,10 @@ const Osaka = () => {
           <Sidevar />
         </div>
         <div className="w-5/6">
-          <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
           <div></div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

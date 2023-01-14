@@ -27,7 +27,7 @@ const Company = () => {
         <title>会社概要</title>
       </Head>
       <Header />
-      <div className="flex bg-lime-100">
+      <div className="flex bg-lime-200">
         <div className="w-1/6">
           <Sidevar />
         </div>

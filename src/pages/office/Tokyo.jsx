@@ -1,6 +1,6 @@
 import Head from "next/head";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Breadcrumbs from "nextjs-breadcrumbs";
 import Sidevar from "../../components/sidevar";
 
 const Tokyo = () => {
@@ -15,10 +15,10 @@ const Tokyo = () => {
           <Sidevar />
         </div>
         <div className="w-5/6">
-          <Breadcrumbs useDefaultStyle rootLabel="ホーム" />
           <div></div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
