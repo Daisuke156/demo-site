@@ -44,11 +44,9 @@ const Home = () => {
                       alt="No way!"
                     />
                   </Card.Section>
-
                   <Text weight={500} size="lg" mt="md">
                     You&apos;ve won a million dollars in cash!
                   </Text>
-
                   <Text mt="xs" color="dimmed" size="sm">
                     Please click anywhere on this card to claim your reward,
                     this is not a fraud, trust us
@@ -70,11 +68,9 @@ const Home = () => {
                       alt="No way!"
                     />
                   </Card.Section>
-
                   <Text weight={500} size="lg" mt="md">
                     You&apos;ve won a million dollars in cash!
                   </Text>
-
                   <Text mt="xs" color="dimmed" size="sm">
                     Please click anywhere on this card to claim your reward,
                     this is not a fraud, trust us
@@ -98,11 +94,9 @@ const Home = () => {
                       alt="No way!"
                     />
                   </Card.Section>
-
                   <Text weight={500} size="lg" mt="md">
                     You&apos;ve won a million dollars in cash!
                   </Text>
-
                   <Text mt="xs" color="dimmed" size="sm">
                     Please click anywhere on this card to claim your reward,
                     this is not a fraud, trust us
@@ -124,11 +118,9 @@ const Home = () => {
                       alt="No way!"
                     />
                   </Card.Section>
-
                   <Text weight={500} size="lg" mt="md">
                     You&apos;ve won a million dollars in cash!
                   </Text>
-
                   <Text mt="xs" color="dimmed" size="sm">
                     Please click anywhere on this card to claim your reward,
                     this is not a fraud, trust us
