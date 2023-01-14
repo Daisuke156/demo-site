@@ -41,6 +41,11 @@ const Policy = () => {
                     Itaque rerum aut fugiat, distinctio blanditiis voluptatum
                     debitis sequi. Illo harum omnis natus vel ullam expedita
                     pariatur doloribus dicta, minus iste sit!
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Itaque rerum aut fugiat, distinctio blanditiis voluptatum
+                    debitis sequi. Illo harum omnis natus vel ullam expedita
+                    pariatur doloribus dicta, minus iste sit!
                   </div>
                   <div className="mx-10">
                     <Card shadow="sm" p="lg" radius="md" withBorder>

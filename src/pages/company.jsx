@@ -67,7 +67,7 @@ const Company = () => {
             <div>
               <h1>代表取締役</h1>
               <h2>
-                <Link href="/">Tweeter</Link>
+                <Link href="/">Twitter</Link>
               </h2>
             </div>
             <div className="my-10">
