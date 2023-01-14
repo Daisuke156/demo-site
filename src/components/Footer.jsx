@@ -34,7 +34,7 @@ const Footer = () => {
             <Link href="/partner">パートナー募集</Link>
           </div>
           <div className="px-5 border-r-2 border-r-white">
-            <Link href="/personal">個人情報保護方針</Link>
+            <Link href="/">個人情報保護方針</Link>
           </div>
           <div className="px-5">
             <Link href="/contact">お問合わせ</Link>
