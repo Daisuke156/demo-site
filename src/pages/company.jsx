@@ -65,22 +65,23 @@ const Company = () => {
               </div>
             </div>
             <div>
-              <h1>代表取締役</h1>
-              <h2>
-                <Link href="/">Twitter</Link>
-              </h2>
+              <h1>代表取締役:</h1>
             </div>
             <div className="my-10">
               <h1>決算期:3月</h1>
             </div>
             <div className="my-10">
-              <h1>従業員数</h1>
+              <h1>従業員数:</h1>
             </div>
             <div className="my-10">
               <h1>取引銀行</h1>
+              <h2 className="mx-5 my-5 text-sm">**銀行</h2>
+              <h2 className="mx-5 my-5 text-sm">**銀行</h2>
+              <h2 className="mx-5 my-5 text-sm">**銀行</h2>
+              <h2 className="mx-5 my-5 text-sm">**銀行</h2>
             </div>
             <div className="mt-10 mb-40">
-              <h1>取引先</h1>
+              <h1>主な取引先</h1>
               <div className="px-5">
                 {ITEMS.map((item) => {
                   return (
