@@ -26,13 +26,13 @@ const Company = () => {
         <title>会社概要</title>
       </Head>
       <Header />
-      <div className="flex bg-lime-200">
+      <div className="flex bg-lime-100">
         <div className="w-1/6">
           <Sidevar />
         </div>
         <div className="w-5/6 px-20">
           <div className="text-4xl my-10 font-bold">会社概要</div>
-          <div>
+          <div className="mx-10">
             <div className="flex justify-between">
               <div>
                 <div className="text-2xl">
@@ -43,6 +43,11 @@ const Company = () => {
                 </div>
                 <div className="my-10">
                   <h1>営業種目</h1>
+                  <div className="mx-5 my-5">
+                    <li>業務委託</li>
+                    <li>Sier</li>
+                    <li>OP</li>
+                  </div>
                 </div>
                 <div className="my-10">
                   <h1>年商:1億円</h1>
