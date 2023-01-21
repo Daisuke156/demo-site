@@ -41,7 +41,7 @@ const Inquiry = () => {
           <Breadcrumbs>{items}</Breadcrumbs>
           <div className="my-10 font-bold text-4xl">お問い合わせ</div>
           <div
-            className="mx-10 my-10"
+            className="mx-10 mt-10"
             style={{ width: 800, position: "relative" }}
           >
             <LoadingOverlay visible={visible} overlayBlur={2} />
@@ -58,6 +58,8 @@ const Inquiry = () => {
               icon={<IconAt size={14} />}
               withAsterisk
             />
+          </div>
+          <div className="mx-10" style={{ width: 200, position: "relative" }}>
             <NumberInput
               defaultValue={20}
               placeholder="Your age"
@@ -69,6 +71,8 @@ const Inquiry = () => {
               label="Select your question"
               withAsterisk
             />
+          </div>
+          <div className="mx-10" style={{ width: 800, position: "relative" }}>
             <Textarea placeholder="Your comment" label="Your comment" />
           </div>
           <div className="flex justify-center">

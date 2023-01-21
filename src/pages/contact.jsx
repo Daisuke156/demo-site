@@ -28,23 +28,21 @@ const FirstPost = () => {
           </div>
           <div className="mx-20 my-10 w-5/6">
             <Breadcrumbs>{items}</Breadcrumbs>
-            <div className="text-4xl font-bold my-20">お問い合わせ方法</div>
-            <div className="text-2xl mx-10 mb-5">お電話でのお問い合わせ</div>
-            <div className="mx-10 font-bold text-xl">
-              <div>株式会社**</div>
+            <div className="text-4xl font-bold mt-5 mb-10">
+              お問い合わせ方法
             </div>
+            <div className="text-2xl my-10 mx-10">お電話でのお問い合わせ</div>
+            <div className="mx-10 font-bold text-xl">株式会社**</div>
             <div className="flex">
               <div className="mx-10 my-10">東京事務所(本部)</div>
               <div className="my-10">〒105-1111 東京都港区***</div>
             </div>
-            <div className="flex">
-              <div className="mx-10">電話受付時間:平日9:00〜17:00</div>
-              <div>TEL:0120-111-222</div>
-            </div>
-            <div className="text-2xl my-20 mx-10">
+            <div className="mx-10">電話受付時間:平日9:00〜17:00</div>
+            <div className="mx-10 my-10">TEL:0120-111-222(担当:**)</div>
+            <div className="text-2xl my-10 mx-10">
               Webフォームでのお問い合わせ
             </div>
-            <div className="font-bold my-20 bg-gray-100 mx-10 border-4 border-gray-400 text-center w-[200px]">
+            <div className="font-bold my-10 bg-gray-100 mx-10 border-4 border-gray-400 text-center w-[200px]">
               <button onClick={() => router.push("../inquiry")}>
                 入力フォームへ
               </button>
