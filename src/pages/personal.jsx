@@ -2,8 +2,6 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
-import { AspectRatio, Image } from "@mantine/core";
-import Link from "next/link";
 
 const Personal = () => {
   return (
