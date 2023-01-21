@@ -12,13 +12,25 @@ const Home = () => {
         <title>Topページ</title>
       </Head>
       <Header />
-      <main className="h-full bg-red-100">
+      <main className="h-full">
         <div className="flex">
           <div className="w-1/6">
             <Sidevar />
           </div>
           <div className="w-5/6">
-            <div className="bg-red-100">
+            <div className="">
+              <div className="my-10 mx-10 border-2 border-red-200">
+                <div className="text-2xl text-red-500 mx-5 my-5">
+                  時空を超えて、
+                </div>
+                <div className="text-2xl text-red-500 mx-20 my-5">
+                  いつまでも続く仲間を創ろう
+                </div>
+                <div>
+                  <div className="">自己の実現による会社の発展</div>
+                  <div>個人の意志の総和による会社の推進</div>
+                </div>
+              </div>
               <div className="text-4xl py-10 px-10 font-bold">業務内容</div>
               <div className="px-10 text-xl">
                 ***はシステム構築、運用を主業務としています。

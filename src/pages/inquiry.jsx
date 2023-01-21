@@ -67,7 +67,7 @@ const Inquiry = () => {
               withAsterisk
             />
             <NativeSelect
-              data={["---", "about our company", "recruit", "jobs", "others"]}
+              data={["---", "about company", "recruit", "jobs", "others"]}
               label="Select your question"
               withAsterisk
             />
