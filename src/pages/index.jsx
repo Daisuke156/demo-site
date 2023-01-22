@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Sidevar from "../components/Sidevar";
 import { Card, Image, Text } from "@mantine/core";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -26,18 +27,25 @@ const Home = () => {
                 <div className="text-2xl text-red-500 mx-20 my-5">
                   いつまでも続く仲間を創ろう
                 </div>
-                <div>
-                  <div className="">自己の実現による会社の発展</div>
-                  <div>個人の意志の総和による会社の推進</div>
+                <div className="bg-red-100 mx-10 my-5 w-[500px]">
+                  <div className="text-xl">自己の実現による会社の発展</div>
+                  <div className="flex">
+                    <div className="text-xl my-5">
+                      個人の意志の総和による会社の推進
+                    </div>
+                    <div className="bg-red-600 w-[100px] mt-10 h-[30px] mx-5 text-white text-xl">
+                      <Link href="/">詳しく見る</Link>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="text-4xl py-10 px-10 font-bold">業務内容</div>
-              <div className="px-10 text-xl">
-                ***はシステム構築、運用を主業務としています。
-                <br />
-                システムエンジニアをやる気のある方を採用募集しております。東京、大阪、名古屋と全国に展開しています。
-                <br />
-                フリーダイヤル:0120-111-222
+              <div className="flex justify-between bg-red-700 mx-10">
+                <div className="text-xl text-white h-[30px] px-10 font-bold">
+                  -業務内容
+                </div>
+                <div className="text-sm text-white py-[5px] hover:bg-red-600">
+                  <Link href="/service">一覧を見る→</Link>
+                </div>
               </div>
             </div>
             <div className="flex my-20">
@@ -140,7 +148,11 @@ const Home = () => {
                 </Card>
               </div>
             </div>
-            <div></div>
+            <div className="px-10 py-10 text-sm">
+              ***はシステム構築、運用を主業務としています。システムエンジニアをやる気のある方を採用募集
+              <br />
+              しております。東京、名古屋、神戸と全国に展開しています。フリーダイヤル:0120-111-222
+            </div>
           </div>
         </div>
       </main>
