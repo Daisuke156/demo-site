@@ -18,22 +18,22 @@ const Header = () => {
         </div>
       </div>
       <div className="flex justify-center py-5 bg-red-700 text-white">
-        <div className="px-10 border-x-2 border-x-black">
+        <div className="h-[40px] py-[8px] px-10 border-x-2 border-x-black hover:bg-red-600">
           <Link href="/news">最新情報</Link>
         </div>
-        <div className="px-10">
+        <div className="px-10 hover:bg-red-600 py-[8px]">
           <Link href="/policy">当社の理念</Link>
         </div>
-        <div className="px-10 border-x-2 border-x-black">
+        <div className="px-10 border-x-2 border-x-black py-[8px] hover:bg-red-600">
           <Link href="/service">業務内容</Link>
         </div>
-        <div className="px-10">
+        <div className="px-10 hover:bg-red-600 py-[8px]">
           <Link href="/company">会社概要</Link>
         </div>
-        <div className="px-10 border-x-2 border-x-black">
+        <div className="px-10 border-x-2 border-x-black py-[8px] hover:bg-red-600">
           <Link href="/recruit">採用情報</Link>
         </div>
-        <div className="px-10 border-r-2 border-r-black">
+        <div className="px-10 border-r-2 border-r-black py-[8px] hover:bg-red-600">
           <Link href="/contact">お問い合わせ</Link>
         </div>
       </div>
