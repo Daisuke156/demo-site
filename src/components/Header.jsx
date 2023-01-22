@@ -12,8 +12,8 @@ const Header = () => {
             電話受付時間:平日9:00〜17:00
           </div>
           <div className="flex">
-            <div className="text-white">フリーダイヤル</div>
-            <div className="text-white px-20">0120-111-222</div>
+            <div className="text-white text-2xl">フリーダイヤル</div>
+            <div className="text-white px-20 text-2xl">0120-111-222</div>
           </div>
         </div>
       </div>

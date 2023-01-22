@@ -6,21 +6,30 @@ import News from "./News";
 const Sidevar = () => {
   return (
     <>
-      <div className="h-auto">
-        <div className="bg-gray-200">
-          <div className="h-1/4 sm:text-sm text-2xl flex justify-between">
-            <div className="font-bold">最新情報</div>
-            <div className="pr-10">
-              <Link href="/news">一覧</Link>
+      <div className="h-full">
+        <div className="border-2 border-red-100 my-10">
+          <div className="bg-red-600 text-2xl flex justify-between">
+            <div className="text-white py-[6px] font-bold text-xl">
+              最新情報
+            </div>
+            <div className="bg-red-700 hover:bg-red-600 text-sm py-[8px] text-white">
+              <Link href="/news">一覧→</Link>
             </div>
           </div>
           <News />
         </div>
-        <div className="h-2/4 bg-lime-300 sm:text-sm">
+        <div className="my-5">
+          <div>リクルート</div>
+          <div>**の人材育成について</div>
+        </div>
+        <div className="my-5">
+          <div>パートナー募集</div>
+        </div>
+        <div className="sm:text-sm">
           <div className="font-bold text-xl">事務所紹介</div>
           <Branch />
         </div>
-        <div className="h-1/4 bg-blue-200">
+        <div className="">
           <div className="text-sm font-bold">Pマーク</div>
           <div>
             <Card shadow="sm" p="lg" radius="md" withBorder>
