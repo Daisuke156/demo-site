@@ -21,7 +21,7 @@ const Home = () => {
             <Sidevar />
           </div>
           <div className="w-5/6">
-            <div className="">
+            <div>
               <div className="my-10 mx-10 border-2 border-red-200">
                 <div className="text-2xl text-red-500 mx-5 my-5">
                   時空を超えて、
