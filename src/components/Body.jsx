@@ -27,7 +27,7 @@ const Body = () => {
             -業務内容
           </div>
           <div className="text-sm text-white py-[5px] hover:bg-red-600">
-            <Link href="/service">一覧を見る→</Link>
+            <Link href="/service">一覧を見る →</Link>
           </div>
         </div>
       </div>
@@ -200,7 +200,7 @@ const Body = () => {
           </div>
         </div>
         <div className="mx-40">
-          <h1 className="bg-red-600 text-white">
+          <h1 className="bg-red-600 text-white px-5">
             電話受付時間：平日9:00-17:00
           </h1>
           <h2 className="text-sm my-[10px]">フリーダイヤル</h2>
