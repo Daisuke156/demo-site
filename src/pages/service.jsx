@@ -11,7 +11,7 @@ const Service = () => {
         <title>業務内容</title>
       </Head>
       <Header />
-      <div className="flex bg-lime-100 h-full pb-40">
+      <div className="flex h-full pb-40">
         <div className="w-1/6">
           <Sidevar />
         </div>
@@ -19,7 +19,7 @@ const Service = () => {
           <div className="mb-10 text-4xl font-bold">業務内容</div>
           <div className="flex justify-evenly">
             <div>
-              <div className="my-5 text-2xl">開発</div>
+              <div className="my-5 text-2xl font-bold">開発</div>
               <h1 className="text-xl">
                 フロントエンド・バックエンドエンジニア
               </h1>
@@ -45,12 +45,13 @@ const Service = () => {
               </div>
             </div>
             <div>
-              <div className="my-5 text-2xl">業務系</div>
+              <div className="my-5 text-2xl font-bold">業務系</div>
               <h1 className="text-xl">業務システム構築・保守</h1>
               <h2 className="mt-5">使用言語</h2>
-              <div className="mx-5 mt-5 mb-10">
+              <div className="mx-5 mt-5 mb-5">
                 <li>Java</li>
                 <li>C#</li>
+                <li>.NET</li>
               </div>
               <h3 className="mb-10">
                 お客様先に常駐し、システム構築をメインに行なっています
@@ -70,7 +71,7 @@ const Service = () => {
           </div>
           <div className="flex justify-evenly">
             <div className="mx-10">
-              <div className="my-10 text-2xl">ヘルプデスク</div>
+              <div className="my-10 text-2xl font-bold">ヘルプデスク</div>
               <h1 className="text-xl">ヘルプデスク業務</h1>
               <h2 className="mt-5"></h2>
               <h3 className="mb-10">
@@ -89,7 +90,7 @@ const Service = () => {
               </div>
             </div>
             <div>
-              <div className="my-10 text-2xl">オペレータ</div>
+              <div className="my-10 text-2xl font-bold">オペレータ</div>
               <h1 className="text-xl">オペレータ業務</h1>
               <h2 className="mt-5"></h2>
               <h3 className="mb-10">
