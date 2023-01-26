@@ -29,7 +29,7 @@ const Sidevar = () => {
           <div className="font-bold text-xl">事務所紹介</div>
           <Branch />
         </div>
-        <div className="">
+        <div>
           <div className="text-sm font-bold">Pマーク</div>
           <div>
             <Card shadow="sm" p="lg" radius="md" withBorder>
