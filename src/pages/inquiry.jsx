@@ -33,47 +33,51 @@ const Inquiry = () => {
         <title>問い合わせフォーム</title>
       </Head>
       <Header />
-      <div className="flex bg-lime-100 h-full pb-40">
+      <div className="flex h-full pb-40">
         <div className="w-1/6">
           <Sidevar />
         </div>
         <div className="mx-20 my-10 w-5/6">
-          <Breadcrumbs>{items}</Breadcrumbs>
+          <div className="flex justify-end h-[30px] bg-red-100">
+            <Breadcrumbs>{items}</Breadcrumbs>
+          </div>
           <div className="my-10 font-bold text-4xl">お問い合わせ</div>
-          <div
-            className="mx-10 mt-10"
-            style={{ width: 800, position: "relative" }}
-          >
-            <LoadingOverlay visible={visible} overlayBlur={2} />
-            <TextInput
-              placeholder="Your name"
-              label="Full name"
-              withAsterisk
-              value={value}
-              onChange={(event) => setValue(event.currentTarget.value)}
-            />
-            <TextInput
-              label="Your email"
-              placeholder="Your email"
-              icon={<IconAt size={14} />}
-              withAsterisk
-            />
-          </div>
-          <div className="mx-10" style={{ width: 200, position: "relative" }}>
-            <NumberInput
-              defaultValue={20}
-              placeholder="Your age"
-              label="Your age"
-              withAsterisk
-            />
-            <NativeSelect
-              data={["---", "about company", "recruit", "jobs", "others"]}
-              label="Select your question"
-              withAsterisk
-            />
-          </div>
-          <div className="mx-10" style={{ width: 800, position: "relative" }}>
-            <Textarea placeholder="Your comment" label="Your comment" />
+          <div>
+            <div
+              className="mx-10 mt-10"
+              style={{ width: 800, position: "relative" }}
+            >
+              <LoadingOverlay visible={visible} overlayBlur={2} />
+              <TextInput
+                placeholder="Your name"
+                label="Full name"
+                withAsterisk
+                value={value}
+                onChange={(event) => setValue(event.currentTarget.value)}
+              />
+              <TextInput
+                label="Your email"
+                placeholder="Your email"
+                icon={<IconAt size={14} />}
+                withAsterisk
+              />
+            </div>
+            <div className="mx-10" style={{ width: 200, position: "relative" }}>
+              <NumberInput
+                defaultValue={20}
+                placeholder="Your age"
+                label="Your age"
+                withAsterisk
+              />
+              <NativeSelect
+                data={["---", "about company", "recruit", "jobs", "others"]}
+                label="Select your question"
+                withAsterisk
+              />
+            </div>
+            <div className="mx-10" style={{ width: 800, position: "relative" }}>
+              <Textarea placeholder="Your comment" label="Your comment" />
+            </div>
           </div>
           <div className="flex justify-center">
             <button
