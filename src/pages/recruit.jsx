@@ -15,7 +15,7 @@ const Recruit = () => {
         <div className="w-1/6">
           <Sidevar />
         </div>
-        <div className="w-5/6 px-20 py-10 bg-lime-100">
+        <div className="w-5/6 px-20 py-10">
           <div>
             <div className="text-4xl font-bold">採用情報</div>
             <div className="mx-10">
@@ -57,4 +57,5 @@ const Recruit = () => {
     </>
   );
 };
+
 export default Recruit;

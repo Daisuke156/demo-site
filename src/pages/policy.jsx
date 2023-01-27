@@ -18,7 +18,7 @@ const Policy = () => {
         <div className="w-1/6">
           <Sidevar />
         </div>
-        <div className="w-5/6 px-20 bg-lime-100 pb-40">
+        <div className="w-5/6 px-20s pb-40">
           <div className="my-10 text-4xl font-bold">当社の理念</div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
@@ -93,4 +93,5 @@ const Policy = () => {
     </>
   );
 };
+
 export default Policy;
