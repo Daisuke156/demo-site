@@ -6,7 +6,7 @@ import News from "./News";
 const Sidevar = () => {
   return (
     <>
-      <div className="h-full">
+      <div className="ml-10 h-full">
         <div className="border-2 border-red-100 mt-10 mb-5">
           <div className="bg-red-600 text-2xl flex justify-between">
             <div className="text-white py-[6px] font-bold text-xl">
