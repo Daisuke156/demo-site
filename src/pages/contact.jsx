@@ -8,7 +8,7 @@ import { Breadcrumbs, Anchor } from "@mantine/core";
 const FirstPost = () => {
   const router = useRouter();
   const items = [
-    { title: "トップ", href: "/" },
+    { title: "HOME", href: "/" },
     { title: "お問い合わせ方法", href: "/contact" },
   ].map((item, index) => (
     <Anchor href={item.href} key={index}>

@@ -18,7 +18,7 @@ const Inquiry = () => {
   const [visible, setVisible] = useState(false);
   const [value, setValue] = useState("");
   const items = [
-    { title: "トップ", href: "/" },
+    { title: "HOME", href: "/" },
     { title: "お問い合わせ方法", href: "/contact" },
     { title: "問い合わせフォーム", href: "/inquiry" },
   ].map((item, index) => (

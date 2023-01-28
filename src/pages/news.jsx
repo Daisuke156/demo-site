@@ -2,45 +2,55 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 import Footer from "../components/Footer";
+import { Anchor, Breadcrumbs } from "@mantine/core";
 
 const ITEMS = [
   {
-    href: "/",
-    title: "2月",
+    date: "2022.4.1",
+    title: "プライバシーマークを更新致しました",
+    text: "弊社は、2022年1月26日付けで、プライバシーマークの認証を更新いたしました。",
   },
   {
-    href: "/",
-    title: "1月",
-  },
-  {
-    href: "/",
-    title: "22年下半期",
-  },
-  {
-    href: "/",
-    title: "22年上半期",
+    date: "2019.8.1",
+    title: "**事務所開設致しました",
+    text: "事務所開設いたしました。",
   },
 ];
 const News = () => {
+  const items = [
+    { title: "HOME", href: "/" },
+    { title: "最新情報", href: "/news" },
+  ].map((item, index) => (
+    <Anchor href={item.href} key={index}>
+      {item.title}
+    </Anchor>
+  ));
   return (
     <>
       <Head>
         <title>最新情報</title>
       </Head>
       <Header />
+      <div className="my-10 mx-80 text-4xl font-bold">最新情報</div>
       <div className="flex">
         <div className="w-1/6">
           <Sidevar />
         </div>
-        <div className="w-5/6 bg-lime-200 px-20 pb-40">
-          <div className="my-10 text-4xl font-bold">最新情報</div>
+        <div className="w-5/6 pb-40 pt-10">
+          <div className="flex mx-10 justify-end bg-red-100 h-[30px]">
+            <Breadcrumbs>{items}</Breadcrumbs>
+          </div>
           <div className="my-20">
             {ITEMS.map((item) => {
               return (
-                <div className="text-2xl mx-10 my-10 text-blue-600 w-[500px] hover:underline hover:text-red-600">
-                  <a href={item.href}>
-                    <li>{item.title}</li>
-                  </a>
+                <div className="border-2 border-red-50 text-2xl mx-10 my-10">
+                  <div className="bg-red-700 text-white text-sm">
+                    <div className="mx-5 my-[3px] font-bold">{item.date}</div>
+                    <div className="mx-5 my-[3px]">{item.title}</div>
+                  </div>
+                  <div className="bg-red-100">
+                    <div className="mx-5 text-sm">{item.text}</div>
+                  </div>
                 </div>
               );
             })}
