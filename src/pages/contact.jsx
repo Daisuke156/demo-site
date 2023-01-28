@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import { useRouter } from "next/router";
 import Sidevar from "../components/sidevar";
 import { Breadcrumbs, Anchor } from "@mantine/core";
+import Info from "../components/Info";
 
 const FirstPost = () => {
   const router = useRouter();
@@ -22,7 +23,7 @@ const FirstPost = () => {
       </Head>
       <div>
         <Header />
-        <div className="flex h-full pb-20">
+        <div className="flex h-full pb-40">
           <div className="w-1/6">
             <Sidevar />
           </div>
@@ -52,6 +53,7 @@ const FirstPost = () => {
                 入力フォームへ
               </button>
             </div>
+            <Info />
           </div>
         </div>
         <Footer />

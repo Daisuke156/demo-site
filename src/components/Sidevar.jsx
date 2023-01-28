@@ -43,8 +43,8 @@ const Sidevar = () => {
             </Card.Section>
           </Card>
         </div>
-        <div className="sm:text-sm my-5">
-          <div className="font-bold text-xl">事務所紹介</div>
+        <div className="sm:text-sm my-5 border-2 border-red-50">
+          <div className="bg-gray-50 text-red-700 h-[20px]">事務所紹介</div>
           <Branch />
         </div>
         <div>

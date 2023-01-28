@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Info from "../components/Info";
 import Sidevar from "../components/sidevar";
 
 const Recruit = () => {
@@ -51,6 +52,7 @@ const Recruit = () => {
               </div>
             </div>
           </div>
+          <Info />
         </div>
       </div>
       <Footer />

@@ -3,11 +3,28 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
+import Info from "../components/Info";
 import { useState } from "react";
-import { AspectRatio, Button, Card, Collapse, Image } from "@mantine/core";
+import {
+  Anchor,
+  AspectRatio,
+  Breadcrumbs,
+  Button,
+  Card,
+  Collapse,
+  Image,
+} from "@mantine/core";
 
 const Policy = () => {
   const [opened, setOpened] = useState(false);
+  const items = [
+    { title: "HOME", href: "/" },
+    { title: "当社の理念", href: "/policy" },
+  ].map((item, index) => (
+    <Anchor href={item.href} key={index}>
+      {item.title}
+    </Anchor>
+  ));
   return (
     <>
       <Head>
@@ -18,7 +35,10 @@ const Policy = () => {
         <div className="w-1/6">
           <Sidevar />
         </div>
-        <div className="w-5/6 px-20s pb-40">
+        <div className="w-5/6 pb-40 pt-10 mx-10">
+          <div className="flex justify-end bg-red-100 h-[30px]">
+            <Breadcrumbs>{items}</Breadcrumbs>
+          </div>
           <div className="my-10 text-4xl font-bold">当社の理念</div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
@@ -87,6 +107,7 @@ const Policy = () => {
               </AspectRatio>
             </div>
           </div>
+          <Info />
         </div>
       </div>
       <Footer />

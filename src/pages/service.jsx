@@ -1,10 +1,18 @@
-import { Card, Image } from "@mantine/core";
+import { Anchor, Breadcrumbs, Card, Image } from "@mantine/core";
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
-
+import Info from "../components/Info";
 const Service = () => {
+  const items = [
+    { title: "HOME", href: "/" },
+    { title: "業務内容", href: "/service" },
+  ].map((item, index) => (
+    <Anchor href={item.href} key={index}>
+      {item.title}
+    </Anchor>
+  ));
   return (
     <>
       <Head>
@@ -15,8 +23,11 @@ const Service = () => {
         <div className="w-1/6">
           <Sidevar />
         </div>
-        <div className="w-5/6 py-10 px-20">
-          <div className="mb-10 text-4xl font-bold">業務内容</div>
+        <div className="w-5/6 pb-40 pt-10 mx-10">
+          <div className="flex justify-end bg-red-100 h-[30px]">
+            <Breadcrumbs>{items}</Breadcrumbs>
+          </div>
+          <div className="my-10 text-4xl font-bold">業務内容</div>
           <div className="flex justify-evenly">
             <div>
               <div className="my-5 text-2xl font-bold">開発</div>
@@ -109,7 +120,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <div></div>
+          <Info />
         </div>
       </div>
       <Footer />

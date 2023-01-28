@@ -1,5 +1,6 @@
 import { Card, Image, Text } from "@mantine/core";
 import Link from "next/link";
+import Info from "./Info";
 
 const Body = () => {
   return (
@@ -160,34 +161,7 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="my-[8px] py-5 px-10 mx-10 border-2 border-red-100 flex justify-between">
-        <div>
-          <div className="text-xl">株式会社***</div>
-          <div>東京事務所(本部)</div>
-          <div className="flex">
-            <div className="text-sm">〒105-0001</div>
-            <div className="mx-5 text-sm">東京都港区***</div>
-          </div>
-          <div className="flex">
-            <div className="font-bold text-red-400">TEL</div>
-            <div className="mx-5 text-sm">03-****-****</div>
-            <div className="font-bold text-red-400 ml-10">FAX</div>
-            <div className="mx-5 text-sm">03-****-****</div>
-          </div>
-        </div>
-        <div className="mx-40">
-          <h1 className="bg-red-600 text-white px-5">
-            電話受付時間：平日9:00-17:00
-          </h1>
-          <h2 className="text-sm my-[10px]">フリーダイヤル</h2>
-          <h3 className="text-2xl">0120-**-****</h3>
-        </div>
-      </div>
-      <div className="mx-10 pb-10 text-sm">
-        ***はシステム構築、運用を主業務としています。システムエンジニアをやる気のある方を採用募集
-        <br />
-        しております。東京、名古屋、神戸と全国に展開しています。フリーダイヤル:0120-111-222
-      </div>
+      <Info />
     </>
   );
 };

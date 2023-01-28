@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 import Footer from "../components/Footer";
+import Info from "../components/Info";
 import { Anchor, Breadcrumbs } from "@mantine/core";
 
 const ITEMS = [
@@ -55,6 +56,7 @@ const News = () => {
               );
             })}
           </div>
+          <Info />
         </div>
       </div>
       <Footer />
