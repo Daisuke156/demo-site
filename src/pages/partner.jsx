@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 import Link from "next/link";
+import Info from "../components/Info";
 
 const Partner = () => {
   return (
@@ -11,7 +12,7 @@ const Partner = () => {
         <title>パートナー募集</title>
       </Head>
       <Header />
-      <div className="flex h-full bg-lime-100">
+      <div className="flex h-full">
         <div className="w-1/6">
           <Sidevar />
         </div>
@@ -25,6 +26,7 @@ const Partner = () => {
               <Link href="/">リンク</Link>
             </div>
           </div>
+          <Info />
         </div>
       </div>
       <Footer />

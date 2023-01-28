@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Info from "../components/Info";
 import Sidevar from "../components/sidevar";
 
 const Personal = () => {
@@ -10,12 +11,13 @@ const Personal = () => {
         <title>個人情報保護について</title>
       </Head>
       <Header />
-      <div className="h-full flex bg-lime-200">
+      <div className="h-full flex">
         <div className="w-1/6">
           <Sidevar />
         </div>
         <div className="w-5/6 py-10 px-20">
           <div className="mb-10 text-4xl font-bold">個人情報保護について</div>
+          <Info />
         </div>
       </div>
       <Footer />

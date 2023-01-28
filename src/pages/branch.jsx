@@ -3,6 +3,7 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
+import Info from "../components/Info";
 
 const Branch = () => {
   return (
@@ -11,7 +12,7 @@ const Branch = () => {
         <title>各事業所について</title>
       </Head>
       <Header />
-      <div className="h-full bg-blue-100">
+      <div className="h-full">
         <div className="flex">
           <div className="w-1/6">
             <Sidevar />
@@ -56,6 +57,7 @@ const Branch = () => {
                 </div>
               </div>
             </div>
+            <Info />
           </div>
         </div>
       </div>
