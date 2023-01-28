@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 import Info from "../components/Info";
+
 const Service = () => {
   const items = [
     { title: "HOME", href: "/" },

@@ -13,6 +13,7 @@ import {
 } from "@mantine/core";
 import { IconAt } from "@tabler/icons";
 import Footer from "../components/Footer";
+import Info from "../components/Info";
 
 const Inquiry = () => {
   const [visible, setVisible] = useState(false);
@@ -87,6 +88,7 @@ const Inquiry = () => {
               ボタン
             </button>
           </div>
+          <Info />
         </div>
       </div>
       <Footer />
