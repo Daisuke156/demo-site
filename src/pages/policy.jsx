@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
@@ -79,9 +78,6 @@ const Policy = () => {
                 </div>
               </div>
             </Collapse>
-            <div className="my-10 text-blue-400 text-xl hover:underline hover:text-red-400">
-              <Link href="/interview">外部リンク</Link>
-            </div>
           </div>
           <div className="flex justify-between">
             <div className="mb-10 w-1/2">

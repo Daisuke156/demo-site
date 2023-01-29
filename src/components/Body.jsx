@@ -161,7 +161,9 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <Info />
+      <div className="mx-10">
+        <Info />
+      </div>
     </>
   );
 };

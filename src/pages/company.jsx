@@ -1,4 +1,4 @@
-import { Anchor, AspectRatio, Breadcrumbs } from "@mantine/core";
+import { Anchor, Breadcrumbs } from "@mantine/core";
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -44,71 +44,101 @@ const Company = () => {
             <div className="flex justify-end bg-red-100 h-[30px]">
               <Breadcrumbs>{items}</Breadcrumbs>
             </div>
-            <div className="text-4xl my-10 font-bold">会社概要</div>
-            <div className="mx-10">
-              <div className="flex justify-between">
-                <div>
-                  <div className="text-2xl">
-                    <h1>会社名:株式会社**</h1>
+            <div className="bg-red-700 text-white text-2xl py-[3px] h-[40px] mt-5">
+              会社概要
+            </div>
+            <div className="bg-gray-100">
+              <div className="px-5 py-5">
+                <div className="flex">
+                  <div className="text-white bg-blue-800 w-1/5 border-2 border-white">
+                    <h1>
+                      <h2 className="py-[5px] px-[10px]">会社名</h2>
+                    </h1>
+                    <h1 className="h-[500px] border-white border-y-2">
+                      <h2 className="py-[5px] px-[10px]">所在地</h2>
+                    </h1>
+                    <h1 className="py-[5px]">
+                      <h2 className="py-[5px] px-[10px]">設立</h2>
+                    </h1>
+                    <h1 className="border-white border-y-2">
+                      <h2 className="py-[5px] px-[10px] h-[250px]">営業種目</h2>
+                    </h1>
+                    <h1 className="py-[5px]">
+                      <h2 className="py-[5px] px-[10px]">年商</h2>
+                    </h1>
+                    <h1 className="border-white border-y-2">
+                      <h2 className="py-[5px] px-[10px]">資本金</h2>
+                    </h1>
+                    <h1 className="py-[5px]">
+                      <h2 className="py-[5px] px-[10px]">代表取締役</h2>
+                    </h1>
+                    <h1 className="border-white border-y-2">
+                      <h2 className="py-[5px] px-[10px]">決算期</h2>
+                    </h1>
+                    <h1 className="py-[5px]">
+                      <h2 className="py-[5px] px-[10px]">従業員数</h2>
+                    </h1>
+                    <h1 className="border-white border-y-2 h-[200px]">
+                      <h2 className="py-[5px] px-[10px]">取引銀行</h2>
+                    </h1>
+                    <h1 className="py-[5px] h-[300px]">
+                      <h2 className="py-[5px] px-[10px]">取引先</h2>
+                    </h1>
                   </div>
-                  <div className="my-10">
-                    <h1>設立:1987年6月</h1>
+                  <div className="text-sm bg-white w-4/5">
+                    <h1 className="py-[5px] h-[34px]">
+                      <h2 className="py-[3px]">株式会社****</h2>
+                    </h1>
+                    <h1 className="py-[5px] border-y-2 h-[500px]">
+                      <li>東京事業所(本部)</li>
+                      <h2>〒105-**** 東京都港区****</h2>
+                      <h3>TEL:03-****-****</h3>
+                      <li>大阪事業所</li>
+                      <h2>〒560-**** 大阪府大阪市***</h2>
+                      <h3>TEL:06-****-****</h3>
+                      <li>名古屋事業所</li>
+                      <h2>〒460-**** 愛知県名古屋市***</h2>
+                      <h3>TEL:052-***-****</h3>
+                    </h1>
+                    <h1 className="py-[5px] h-[44px]">
+                      <h2 className="py-[5px]">1987年6月</h2>
+                    </h1>
+                    <h1 className="py-[5px] border-y-2 h-[255px]">
+                      <li>システム運用</li>
+                      <li>システム開発</li>
+                    </h1>
+                    <h1 className="py-[5px] h-[45px]">
+                      <h2 className="py-[5px]">1億円</h2>
+                    </h1>
+                    <h1 className="py-[5px] border-y-2 h-[38px]">
+                      <h2 className="py-[5px]">1000万円</h2>
+                    </h1>
+                    <h1 className="py-[5px] h-[44px]">
+                      <h2 className="py-[5px]">** **</h2>
+                    </h1>
+                    <h1 className="py-[5px] border-y-2 h-[38px]">
+                      <h2 className="py-[5px]">3月</h2>
+                    </h1>
+                    <h1 className="py-[5px] h-[44px]">
+                      <h2 className="py-[5px]">100人</h2>
+                    </h1>
+                    <h1 className="py-[5px] border-y-2 h-[200px]">
+                      <h2 className="py-[5px]"></h2>
+                    </h1>
+                    <h1 className="py-[5px] h-[300px]">
+                      <h2 className="py-[5px]">
+                        {ITEMS.map((item) => {
+                          return (
+                            <div className="text-sm my-5 text-blue-600 hover:underline hover:text-red-600">
+                              <a href={item.href}>
+                                <li>{item.title}</li>
+                              </a>
+                            </div>
+                          );
+                        })}
+                      </h2>
+                    </h1>
                   </div>
-                  <div className="my-10">
-                    <h1>営業種目</h1>
-                    <div className="mx-5 my-5">
-                      <li>業務委託</li>
-                      <li>Sier</li>
-                      <li>OP</li>
-                    </div>
-                  </div>
-                  <div className="my-10">
-                    <h1>年商:1億円</h1>
-                  </div>
-                  <div className="my-10">
-                    <h1>資本金:1000万円</h1>
-                  </div>
-                </div>
-                <div>
-                  <h1>所在地:東京都港区***</h1>
-                  <div className="h-[300px] w-[300px]">
-                    <AspectRatio ratio={100 / 100}>
-                      <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.3063874233135!2d-74.04668908358428!3d40.68924937933441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty%20National%20Monument!5e0!3m2!1sen!2sru!4v1644262070010!5m2!1sen!2sru"
-                        title="Google map"
-                      />
-                    </AspectRatio>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <h1>代表取締役:</h1>
-              </div>
-              <div className="my-10">
-                <h1>決算期:3月</h1>
-              </div>
-              <div className="my-10">
-                <h1>従業員数:</h1>
-              </div>
-              <div className="my-10">
-                <h1>取引銀行</h1>
-                <h2 className="mx-5 my-5 text-sm">**銀行</h2>
-                <h2 className="mx-5 my-5 text-sm">**銀行</h2>
-                <h2 className="mx-5 my-5 text-sm">**銀行</h2>
-                <h2 className="mx-5 my-5 text-sm">**銀行</h2>
-              </div>
-              <div className="mt-10 mb-40">
-                <h1>主な取引先</h1>
-                <div className="px-5">
-                  {ITEMS.map((item) => {
-                    return (
-                      <div className="text-sm my-5 text-blue-600 w-[500px] hover:underline hover:text-red-600">
-                        <a href={item.href}>
-                          <li>{item.title}</li>
-                        </a>
-                      </div>
-                    );
-                  })}
                 </div>
               </div>
             </div>

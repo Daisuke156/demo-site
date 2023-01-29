@@ -56,7 +56,9 @@ const News = () => {
               );
             })}
           </div>
-          <Info />
+          <div className="mx-10">
+            <Info />
+          </div>
         </div>
       </div>
       <Footer />
