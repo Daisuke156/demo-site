@@ -6,7 +6,7 @@ import Sidevar from "../components/sidevar";
 import { Breadcrumbs, Anchor } from "@mantine/core";
 import Info from "../components/Info";
 
-const FirstPost = () => {
+const Contact = () => {
   const router = useRouter();
   const items = [
     { title: "HOME", href: "/" },
@@ -62,4 +62,4 @@ const FirstPost = () => {
   );
 };
 
-export default FirstPost;
+export default Contact;

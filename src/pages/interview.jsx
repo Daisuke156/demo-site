@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Sidevar from "../components/sidevar";
 import { AspectRatio, Image } from "@mantine/core";
 import Link from "next/link";
+import Info from "../components/Info";
 
 const Interview = () => {
   return (
@@ -12,7 +13,7 @@ const Interview = () => {
         <title>代表者の言葉</title>
       </Head>
       <Header />
-      <div className="h-full flex bg-lime-200">
+      <div className="h-full flex">
         <div className="w-1/6">
           <Sidevar />
         </div>
@@ -39,6 +40,7 @@ const Interview = () => {
               <Link href="/">Facebook</Link>
             </div>
           </div>
+          <Info />
         </div>
       </div>
       <Footer />
