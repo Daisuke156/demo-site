@@ -90,15 +90,17 @@ const Company = () => {
                       <h2 className="py-[3px]">株式会社****</h2>
                     </h1>
                     <h1 className="py-[5px] border-y-2 h-[500px]">
-                      <li>東京事業所(本部)</li>
-                      <h2>〒105-**** 東京都港区****</h2>
-                      <h3>TEL:03-****-****</h3>
-                      <li>大阪事業所</li>
-                      <h2>〒560-**** 大阪府大阪市***</h2>
-                      <h3>TEL:06-****-****</h3>
-                      <li>名古屋事業所</li>
-                      <h2>〒460-**** 愛知県名古屋市***</h2>
-                      <h3>TEL:052-***-****</h3>
+                      <li className="text-blue-700 font-bold">
+                        東京事業所(本部)
+                      </li>
+                      <h2 className="my-5">〒105-**** 東京都港区****</h2>
+                      <h3 className="mb-5">TEL:03-****-****</h3>
+                      <li className="text-blue-700 font-bold">大阪事業所</li>
+                      <h2 className="my-5">〒560-**** 大阪府大阪市***</h2>
+                      <h3 className="mb-5">TEL:06-****-****</h3>
+                      <li className="text-blue-700 font-bold">名古屋事業所</li>
+                      <h2 className="my-5">〒460-**** 愛知県名古屋市***</h2>
+                      <h3 className="mb-5">TEL:052-***-****</h3>
                     </h1>
                     <h1 className="py-[5px] h-[44px]">
                       <h2 className="py-[5px]">1987年6月</h2>
@@ -120,10 +122,14 @@ const Company = () => {
                       <h2 className="py-[5px]">3月</h2>
                     </h1>
                     <h1 className="py-[5px] h-[44px]">
-                      <h2 className="py-[5px]">100人</h2>
+                      <h2 className="py-[5px]">100人(令和5年1月時点)</h2>
                     </h1>
                     <h1 className="py-[5px] border-y-2 h-[200px]">
-                      <h2 className="py-[5px]"></h2>
+                      <h2 className="py-[5px]">
+                        <li>***銀行</li>
+                        <li className="my-5">**バンク</li>
+                        <li>****銀行</li>
+                      </h2>
                     </h1>
                     <h1 className="py-[5px] h-[300px]">
                       <h2 className="py-[5px]">

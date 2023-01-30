@@ -1,7 +1,7 @@
 const Info = () => {
   return (
     <>
-      <div className="my-[8px] py-5 px-10 border-2 border-red-100 flex justify-between">
+      <div className="my-[8px] py-5 px-10 border-2 border-red-300 flex justify-between">
         <div>
           <div className="text-xl">株式会社***</div>
           <div>東京事務所(本部)</div>
