@@ -53,7 +53,9 @@ const Contact = () => {
                 入力フォームへ
               </button>
             </div>
-            <Info />
+            <div className="my-80">
+              <Info />
+            </div>
           </div>
         </div>
         <Footer />

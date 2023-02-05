@@ -44,11 +44,11 @@ const Inquiry = () => {
           </div>
           <div className="my-10 font-bold text-4xl">お問い合わせ</div>
           <div>
+            <LoadingOverlay visible={visible} overlayBlur={2} />
             <div
               className="mx-10 mt-10"
               style={{ width: 800, position: "relative" }}
             >
-              <LoadingOverlay visible={visible} overlayBlur={2} />
               <TextInput
                 placeholder="Your name"
                 label="Full name"
