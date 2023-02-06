@@ -42,7 +42,7 @@ const Contact = () => {
                 電話受付時間:平日9:00〜17:00
               </div>
               <div className="mx-10 my-5 text-red-600 text-4xl">
-                TEL:0120-***-***(担当:)
+                TEL:0120-***-***(担当:**)
               </div>
             </div>
             <div className="text-2xl mt-20 mx-10">
