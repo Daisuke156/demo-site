@@ -88,7 +88,9 @@ const Inquiry = () => {
               ボタン
             </button>
           </div>
-          <Info />
+          <div className="my-80">
+            <Info />
+          </div>
         </div>
       </div>
       <Footer />
