@@ -16,6 +16,7 @@ const Contact = () => {
       {item.title}
     </Anchor>
   ));
+
   return (
     <>
       <Head>
