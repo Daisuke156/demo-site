@@ -20,7 +20,9 @@ const Sidevar = () => {
         </div>
         <div className="mb-5">
           <div>リクルート</div>
-          <div>**の人材育成について</div>
+          <div>
+            <Link href="/human">**の人材育成について</Link>
+          </div>
           <Card shadow="sm" p="lg" radius="md" withBorder>
             <Card.Section>
               <Image
