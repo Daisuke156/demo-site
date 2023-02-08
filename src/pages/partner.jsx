@@ -26,7 +26,9 @@ const Partner = () => {
               <Link href="/">リンク</Link>
             </div>
           </div>
-          <Info />
+          <div className="mx-20 my-80">
+            <Info />
+          </div>
         </div>
       </div>
       <Footer />
