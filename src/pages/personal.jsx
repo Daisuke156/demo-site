@@ -21,8 +21,9 @@ const Personal = () => {
           <div></div>
           <div></div>
           <div></div>
-          <div></div>
-          <Info />
+          <div className="my-80">
+            <Info />
+          </div>
         </div>
       </div>
       <Footer />
