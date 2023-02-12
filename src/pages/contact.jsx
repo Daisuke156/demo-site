@@ -46,17 +46,6 @@ const Contact = () => {
                 TEL:0120-***-***(担当:**)
               </div>
             </div>
-            <div className="text-2xl mt-20 mx-10">
-              Webフォームでのお問い合わせ
-            </div>
-            <div className="font-bold my-10 bg-gray-100 mx-10 border-4 border-gray-400 text-center w-[200px]">
-              <button onClick={() => router.push("../inquiry")}>
-                入力フォームへ
-              </button>
-            </div>
-            <div className="my-80">
-              <Info />
-            </div>
           </div>
         </div>
         <Footer />

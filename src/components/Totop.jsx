@@ -41,7 +41,7 @@ const ReturnTopButton = () => {
 
   return (
     <button style={style} onClick={returnTop}>
-      ▼トップへ戻る
+      ▲トップへ戻る
     </button>
   );
 };
