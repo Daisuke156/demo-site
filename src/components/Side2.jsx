@@ -8,33 +8,33 @@ const Side2 = () => {
       <div className="ml-10 h-full">
         <div className="mt-10 mb-5">
           <div className="bg-red-600 flex justify-between">
-            <div className="text-white py-[6px] font-bold">- 最新情報</div>
+            <div className="text-white py-[6px]">- 最新情報</div>
             <div className="bg-red-700 hover:bg-red-600 text-sm py-[8px] text-white">
-              <Link href="/news">一覧を見る→</Link>
+              <Link href="/service">一覧を見る→</Link>
             </div>
           </div>
           <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
-            <Link href="/">
+            <Link href="/service">
               Unix/Windows
               <br />
               サーバオペレーション
             </Link>
           </div>
           <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
-            <Link href="/">
+            <Link href="/service">
               大型汎用機
               <br />
               オペレーション
             </Link>
           </div>
           <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
-            <Link href="/">システム運用</Link>
+            <Link href="/service">システム運用</Link>
           </div>
           <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
-            <Link href="/">運用設計/構築</Link>
+            <Link href="/service">運用設計/構築</Link>
           </div>
           <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
-            <Link href="/">サービスデスク</Link>
+            <Link href="/service">サービスデスク</Link>
           </div>
         </div>
         <div className="mb-5">
