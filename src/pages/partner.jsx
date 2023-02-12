@@ -89,7 +89,7 @@ const Partner = () => {
                 <h1 className="h-[80px] border-2 border-x-2 border-y-2">
                   ご連絡先、貴社の業務概要等をご記入したうえ、下記までメールにてお送りください。
                   <h2 className="text-red-700 my-5 text-sm hover:underline">
-                    <a href="mailto:jungle379@gmail.com">jungle379@gmail.com</a>
+                    <a href="mailto:jungle379@gmail.com">メールはこちら</a>
                   </h2>
                 </h1>
               </div>
