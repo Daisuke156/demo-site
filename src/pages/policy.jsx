@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Sidevar from "../components/sidevar";
 import Info from "../components/Info";
 import { useState } from "react";
 import {
@@ -13,6 +12,7 @@ import {
   Collapse,
   Image,
 } from "@mantine/core";
+import Side2 from "../components/Side2";
 
 const Policy = () => {
   const [opened, setOpened] = useState(false);
@@ -32,7 +32,7 @@ const Policy = () => {
       <Header />
       <div className="h-full flex">
         <div className="w-1/6">
-          <Sidevar />
+          <Side2 />
         </div>
         <div className="w-5/6 pb-40 pt-10 mx-10">
           <div className="flex justify-end bg-red-100 h-[30px]">

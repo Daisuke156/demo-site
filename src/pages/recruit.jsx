@@ -3,7 +3,7 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Info";
-import Sidevar from "../components/sidevar";
+import Side2 from "../components/Side2";
 
 const Recruit = () => {
   const items = [
@@ -22,7 +22,7 @@ const Recruit = () => {
       <Header />
       <div className="flex h-full">
         <div className="w-1/6">
-          <Sidevar />
+          <Side2 />
         </div>
         <div className="w-5/6 px-20 py-10">
           <div className="flex justify-end bg-red-100 h-[30px]">

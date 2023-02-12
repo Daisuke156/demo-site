@@ -2,9 +2,8 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useRouter } from "next/router";
-import Sidevar from "../components/sidevar";
 import { Breadcrumbs, Anchor } from "@mantine/core";
-import Info from "../components/Info";
+import Side2 from "../components/Side2";
 
 const Contact = () => {
   const router = useRouter();
@@ -26,7 +25,7 @@ const Contact = () => {
         <Header />
         <div className="flex h-full pb-40">
           <div className="w-1/6">
-            <Sidevar />
+            <Side2 />
           </div>
           <div className="mx-20 my-10 w-5/6">
             <div className="flex justify-end bg-red-100 h-[30px]">

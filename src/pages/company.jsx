@@ -3,7 +3,7 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Info";
-import Sidevar from "../components/Sidevar";
+import Side2 from "../components/Side2";
 
 const ITEMS = [
   {
@@ -38,7 +38,7 @@ const Company = () => {
         <Header />
         <div className="flex">
           <div className="w-1/6">
-            <Sidevar />
+            <Side2 />
           </div>
           <div className="w-5/6 pb-40 pt-10 mx-10">
             <div className="flex justify-end bg-red-100 h-[30px]">

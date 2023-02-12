@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Sidevar from "../components/sidevar";
+import Side2 from "../components/Side2";
 import Footer from "../components/Footer";
 import Info from "../components/Info";
 import { Anchor, Breadcrumbs } from "@mantine/core";
@@ -32,10 +32,9 @@ const News = () => {
         <title>最新情報</title>
       </Head>
       <Header />
-      <div className="my-10 mx-80 text-4xl font-bold">最新情報</div>
       <div className="flex">
         <div className="w-1/6">
-          <Sidevar />
+          <Side2 />
         </div>
         <div className="w-5/6 pb-40 pt-10">
           <div className="flex mx-10 justify-end bg-red-100 h-[30px]">

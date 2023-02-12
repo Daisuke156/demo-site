@@ -2,7 +2,7 @@ import { Anchor, Breadcrumbs, Card, Image } from "@mantine/core";
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Sidevar from "../components/sidevar";
+import Side2 from "../components/Side2";
 import Info from "../components/Info";
 
 const Service = () => {
@@ -23,7 +23,7 @@ const Service = () => {
       <Header />
       <div className="flex h-full pb-40">
         <div className="w-1/6">
-          <Sidevar />
+          <Side2 />
         </div>
         <div className="w-5/6 pb-40 pt-10 mx-10">
           <div className="flex justify-end bg-red-100 h-[30px]">

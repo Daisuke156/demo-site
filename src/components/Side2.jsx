@@ -1,20 +1,41 @@
 import Link from "next/link";
 import Branch from "./Branch";
 import { Card, Image } from "@mantine/core";
-import News from "./News";
 
-const Sidevar = () => {
+const Side2 = () => {
   return (
     <>
       <div className="ml-10 h-full">
-        <div className="border-2 border-red-100 mt-10 mb-5">
+        <div className="mt-10 mb-5">
           <div className="bg-red-600 flex justify-between">
-            <div className="text-white py-[6px]">- 最新情報</div>
+            <div className="text-white py-[6px] font-bold">- 最新情報</div>
             <div className="bg-red-700 hover:bg-red-600 text-sm py-[8px] text-white">
-              <Link href="/news">一覧→</Link>
+              <Link href="/news">一覧を見る→</Link>
             </div>
           </div>
-          <News />
+          <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
+            <Link href="/">
+              Unix/Windows
+              <br />
+              サーバオペレーション
+            </Link>
+          </div>
+          <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
+            <Link href="/">
+              大型汎用機
+              <br />
+              オペレーション
+            </Link>
+          </div>
+          <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
+            <Link href="/">システム運用</Link>
+          </div>
+          <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
+            <Link href="/">運用設計/構築</Link>
+          </div>
+          <div className="my-[5px] py-[5px] px-[10px] border-x-2 border-2 border-y-2">
+            <Link href="/">サービスデスク</Link>
+          </div>
         </div>
         <div className="mb-5">
           <div>リクルート</div>
@@ -67,4 +88,4 @@ const Sidevar = () => {
     </>
   );
 };
-export default Sidevar;
+export default Side2;
