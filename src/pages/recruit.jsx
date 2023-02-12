@@ -184,7 +184,7 @@ const Recruit = () => {
             </h2>
             <h2 className="text-sm ml-5">■お問い合わせはこちらまで</h2>
             <h3 className="text-sm mb-5 ml-5">
-              フリーダイヤル 0120-**:-*** / TEL 03-****-****
+              フリーダイヤル 0120-***-*** / TEL 03-****-****
             </h3>
           </div>
           <div className="my-10">
