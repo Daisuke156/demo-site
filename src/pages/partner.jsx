@@ -67,25 +67,30 @@ const Partner = () => {
             </div>
             <div className="flex">
               <div className="font-bold text-sm">
-                <h1 className=" border-2 border-x-2 border-y-2">対象工種</h1>
-                <h1 className="h-[44px] border-2 border-x-2 border-y-2">
+                <h1 className="h-[40px] border-2 border-x-2 border-y-2">
+                  対象工種
+                </h1>
+                <h1 className="h-[60px] border-2 border-x-2 border-y-2">
                   応募資格要件
                 </h1>
-                <h1 className=" border-2 border-x-2 border-y-2">
+                <h1 className="h-[80px] border-2 border-x-2 border-y-2">
                   お問い合わせ先
                 </h1>
               </div>
               <div className="text-sm">
-                <h1 className=" border-2 border-x-2 border-y-2">
+                <h1 className="h-[40px] border-2 border-x-2 border-y-2">
                   ネットワーク設計・構築 サーバ(UNIX/WINDOWS) 構築・運用
                 </h1>
-                <h1 className=" border-2 border-x-2 border-y-2">
+                <h1 className="h-[60px] border-2 border-x-2 border-y-2">
                   特に応募資格などは設けておりませんが、上記内容においての実績を考慮のうえ、
                   <br />
                   ご検討させていただきます。
                 </h1>
-                <h1 className=" border-2 border-x-2 border-y-2">
+                <h1 className="h-[80px] border-2 border-x-2 border-y-2">
                   ご連絡先、貴社の業務概要等をご記入したうえ、下記までメールにてお送りください。
+                  <h2 className="text-red-700 my-5 text-sm hover:underline">
+                    <a href="mailto:jungle379@gmail.com">jungle379@gmail.com</a>
+                  </h2>
                 </h1>
               </div>
             </div>
