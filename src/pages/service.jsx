@@ -122,7 +122,9 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <Info />
+          <div className="my-80">
+            <Info />
+          </div>
         </div>
       </div>
       <Footer />
