@@ -1,12 +1,10 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { useRouter } from "next/router";
 import { Breadcrumbs, Anchor } from "@mantine/core";
 import Side2 from "../components/Side2";
 
 const Contact = () => {
-  const router = useRouter();
   const items = [
     { title: "HOME", href: "/" },
     { title: "お問い合わせ方法", href: "/contact" },
