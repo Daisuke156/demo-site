@@ -29,7 +29,7 @@ const Service = () => {
           <div className="flex justify-end bg-red-100 h-[30px]">
             <Breadcrumbs>{items}</Breadcrumbs>
           </div>
-          <div className="flex">
+          <div className="flex mt-10">
             <div className="text-red-700 text-2xl">ITアウトソーシング</div>
             <div className="text-sm py-[5px]">
               (IT標準スキル標準的における、ITサービスマネジメント領域)
