@@ -30,8 +30,10 @@ const Recruit = () => {
             <Breadcrumbs>{items}</Breadcrumbs>
           </div>
           <div className="flex my-10">
-            <div className="text-2xl text-red-700">未経験歓迎！！</div>
-            <div className="text-4xl text-blue-400">オペレータ・SE募集</div>
+            <div className="text-2xl text-red-700 pt-[5px]">未経験歓迎！！</div>
+            <div className="text-4xl text-blue-400 pl-[10px]">
+              オペレータ・SE募集
+            </div>
           </div>
           <div className="text-sm">
             どれだけ技術が進歩しても、行き着く先は「人対人」。そう考える***だ
@@ -44,7 +46,7 @@ const Recruit = () => {
             ※ネットワーク基礎知識のある方、Linux基礎知識のある方も歓迎します！
           </div>
           <div className="mt-20 mb-5 bg-blue-300 h-[60px] py-[15px] text-white text-xl">
-            募集要項
+            - 募集要項
           </div>
           <div className="mx-5 border-y-2 border-x-2">
             <div className="flex">
