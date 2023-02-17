@@ -2,8 +2,8 @@ import { AspectRatio } from "@mantine/core";
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Sidevar from "../components/sidevar";
 import Info from "../components/Info";
+import Side2 from "../components/Side2";
 
 const Branch = () => {
   return (
@@ -15,7 +15,7 @@ const Branch = () => {
       <div className="h-full">
         <div className="flex">
           <div className="w-1/6">
-            <Sidevar />
+            <Side2 />
           </div>
           <div className="mx-10 my-10 w-5/6">
             <div className="font-bold text-4xl pb-20">各事業所紹介</div>
