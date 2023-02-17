@@ -14,6 +14,7 @@ const Recruit = () => {
       {item.title}
     </Anchor>
   ));
+
   return (
     <>
       <Head>
@@ -48,31 +49,31 @@ const Recruit = () => {
           <div className="mx-5 border-y-2 border-x-2">
             <div className="flex">
               <div className="w-[300px]">
-                <div className="font-bold border-2 border-x-2 border-y-2">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2">
                   雇用形態
                 </div>
-                <div className="font-bold border-2 border-x-2 border-y-2 h-[150px]">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2 h-[150px]">
                   業務内容
                 </div>
-                <div className="font-bold border-2 border-x-2 border-y-2 h-[80px]">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2 h-[80px]">
                   給与
                 </div>
-                <div className="font-bold border-2 border-x-2 border-y-2 h-[150px]">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2 h-[150px]">
                   勤務地
                 </div>
-                <div className="font-bold border-2 border-x-2 border-y-2 h-[500px]">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2 h-[500px]">
                   勤務時間
                 </div>
-                <div className="font-bold border-2 border-x-2 border-y-2">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2">
                   資格
                 </div>
-                <div className="font-bold border-2 border-x-2 border-y-2">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2">
                   採用予定人数
                 </div>
-                <div className="font-bold border-2 border-x-2 border-y-2">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2">
                   勤務期間
                 </div>
-                <div className="font-bold border-2 border-x-2 border-y-2 h-[70px]">
+                <div className="font-bold pl-[10px] border-2 border-x-2 border-y-2 h-[70px]">
                   待遇
                 </div>
               </div>
@@ -86,7 +87,7 @@ const Recruit = () => {
                     お客様からの問い合わせ対応や、お客様への報告・情報発信などを行う仕事です。
                     電話での業務コミュニケーション経験や、Unix、ネットワーク、Windowsの知識が活かせる仕事です。
                   </h2>
-                  <h1>■オペレータ</h1>
+                  <h1 className="mt-[10px]">■オペレータ</h1>
                   <h2>
                     データセンターでのサーバ・大型汎用機の監視・運用をお願いします。
                     経験を積み、将来は運用の現場を知る人間として、SEや管理者にステップアップしていただきたいと思います。
@@ -100,14 +101,14 @@ const Recruit = () => {
                 <div className="h-[150px] border-2 border-x-2 border-y-2 text-sm">
                   <h1>■サービスデスク</h1>
                   <h2>神奈川県（川崎市/武蔵小杉駅)</h2>
-                  <h1>■オペレータ</h1>
+                  <h1 className="mt-[10px]">■オペレータ</h1>
                   <h2>神奈川県（横浜市/センター北駅）</h2>
                   <h2>兵庫県（神戸市/西神中央駅）</h2>
                   <h2>愛知県（名古屋市/新栄町駅）</h2>
                 </div>
                 <div className="h-[500px] text-sm border-2 border-x-2 border-y-2">
                   <h1 className="text-red-500 font-bold">●勤務時間</h1>
-                  <h2>■サービスデスク</h2>
+                  <h2 className="mt-[5px]">■サービスデスク</h2>
                   <h3>
                     神奈川県（武蔵小杉駅）
                     <br /> 三交代 8:30～17:30、15:00～21:30、21:00～翌9:00
@@ -117,7 +118,7 @@ const Recruit = () => {
                     ※休日交代制（月7～10日）
                     <br />
                   </h3>
-                  <h2>■オペレータ</h2>
+                  <h2 className="mt-5">■オペレータ</h2>
                   <h3>
                     神奈川県（センター北駅）
                     <br />
@@ -127,7 +128,7 @@ const Recruit = () => {
                     <br />
                     ※休日交代制（月7～10日）
                   </h3>
-                  <h3>
+                  <h3 className="mt-[5px]">
                     兵庫県（西神中央駅）
                     <br />
                     二交替 9:00～21:15 21:00～翌9:15
@@ -138,13 +139,15 @@ const Recruit = () => {
                     <br />
                     ※休日交代制（月8～12日）
                   </h3>
-                  <h3></h3>愛知県（新栄町駅）
-                  <br />
-                  二交代 8:00～20:30 20:15～翌8:15
-                  <br />
-                  ※24時間365日運用 交代制
-                  <br />
-                  ※休日交代制（月8～11日）
+                  <h3 className="mt-[5px]">
+                    愛知県（新栄町駅）
+                    <br />
+                    二交代 8:00～20:30 20:15～翌8:15
+                    <br />
+                    ※24時間365日運用 交代制
+                    <br />
+                    ※休日交代制（月8～11日）
+                  </h3>
                   <h1 className="text-red-500 font-bold">
                     ●その他の休日・休暇
                   </h1>
