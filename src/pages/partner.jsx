@@ -14,6 +14,7 @@ const Partner = () => {
       {item.title}
     </Anchor>
   ));
+
   return (
     <>
       <Head>

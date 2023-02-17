@@ -4,8 +4,18 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Info";
 import Side2 from "../components/Side2";
+import { Anchor, Breadcrumbs } from "@mantine/core";
 
 const Branch = () => {
+  const items = [
+    { title: "HOME", href: "/" },
+    { title: "各事業所について", href: "/branch" },
+  ].map((item, index) => (
+    <Anchor href={item.href} key={index}>
+      {item.title}
+    </Anchor>
+  ));
+
   return (
     <>
       <Head>
@@ -17,12 +27,15 @@ const Branch = () => {
           <div className="w-1/6">
             <Side2 />
           </div>
-          <div className="mx-10 my-10 w-5/6">
-            <div className="font-bold text-4xl pb-20">各事業所紹介</div>
-            <div className="mb-10 px-10">
+          <div className="w-5/6 pb-20 pt-10 mx-10">
+            <div className="flex justify-end bg-red-100 h-[30px]">
+              <Breadcrumbs>{items}</Breadcrumbs>
+            </div>
+            <div className="font-bold text-4xl pt-5 pb-10">各事業所紹介</div>
+            <div className="mb-10 px-5">
               当社の事業所は全国にございます。詳細は以下のリンクからご確認ください。
             </div>
-            <div className="mx-20">
+            <div className="mx-10">
               <div className="my-10">
                 <div className="font-bold text-xl">東京事業所(本部)</div>
                 <div className="h-[400px] w-[400px]">
@@ -57,7 +70,7 @@ const Branch = () => {
                 </div>
               </div>
             </div>
-            <div className="my-80">
+            <div className="mt-20">
               <Info />
             </div>
           </div>
