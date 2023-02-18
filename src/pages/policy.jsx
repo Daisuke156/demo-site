@@ -24,6 +24,7 @@ const Policy = () => {
       {item.title}
     </Anchor>
   ));
+
   return (
     <>
       <Head>
@@ -103,7 +104,7 @@ const Policy = () => {
               </AspectRatio>
             </div>
           </div>
-          <div className="my-80">
+          <div className="my-20">
             <Info />
           </div>
         </div>
