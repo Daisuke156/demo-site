@@ -107,7 +107,7 @@ const Company = () => {
                     </h1>
                     <h1 className="py-[5px] border-y-2 h-[255px]">
                       <li>システム運用</li>
-                      <li>システム開発</li>
+                      <li className="my-10">システム開発</li>
                     </h1>
                     <h1 className="py-[5px] h-[45px]">
                       <h2 className="py-[5px]">1億円</h2>
@@ -148,7 +148,9 @@ const Company = () => {
                 </div>
               </div>
             </div>
-            <Info />
+            <div className="my-20">
+              <Info />
+            </div>
           </div>
         </div>
       </div>

@@ -1,10 +1,9 @@
-import { AspectRatio } from "@mantine/core";
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Info";
 import Side2 from "../components/Side2";
-import { Anchor, Breadcrumbs } from "@mantine/core";
+import { Anchor, Breadcrumbs, AspectRatio } from "@mantine/core";
 
 const Branch = () => {
   const items = [
