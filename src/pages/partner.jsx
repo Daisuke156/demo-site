@@ -95,7 +95,7 @@ const Partner = () => {
                 </h1>
               </div>
             </div>
-            <div className="mt-80">
+            <div className="mt-20">
               <Info />
             </div>
           </div>
