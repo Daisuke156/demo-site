@@ -5,7 +5,7 @@ const News = () => {
     <>
       <div>
         <div className="text-sm">
-          <ScrollArea style={{ height: 250, width: 180 }}>
+          <ScrollArea style={{ height: 250, width: 190 }}>
             <div style={{ width: 600 }}>
               <List type="ordered" size="sm">
                 <List.Item>Clone or download repository from GitHub</List.Item>

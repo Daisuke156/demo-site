@@ -35,7 +35,7 @@ const Service = () => {
               (IT標準スキル標準的における、ITサービスマネジメント領域)
             </div>
           </div>
-          <div>に特化したサービスを展開しています。</div>
+          <div className="text-xl">に特化したサービスを展開しています。</div>
           <div className="my-20">
             <div className="bg-red-700 text-2xl text-white h-[50px] py-[10px]">
               - Unix/windowsサーバオペレーション
