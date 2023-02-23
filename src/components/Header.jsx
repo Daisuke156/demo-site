@@ -13,7 +13,7 @@ const Header = () => {
           </div>
           <div className="flex">
             <div className="text-white text-2xl">フリーダイヤル</div>
-            <div className="text-white px-20 text-2xl">0120-111-222</div>
+            <div className="text-white px-20 text-2xl">0120-***-***</div>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import { Card, Image } from "@mantine/core";
 const Side2 = () => {
   return (
     <>
-      <div className="ml-10 h-full">
+      <div className="ml-10 h-[1400px]">
         <div className="mt-10 mb-5">
           <div className="bg-red-600 flex justify-between">
             <div className="text-white py-[6px]">- 最新情報</div>
