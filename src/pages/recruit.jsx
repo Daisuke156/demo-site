@@ -192,7 +192,7 @@ const Recruit = () => {
               フリーダイヤル 0120-***-*** / TEL 03-****-****
             </h3>
           </div>
-          <div className="my-10">
+          <div className="my-5">
             <Info />
           </div>
         </div>
