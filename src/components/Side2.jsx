@@ -8,7 +8,7 @@ const Side2 = () => {
       <div className="ml-10 h-[1400px]">
         <div className="mt-10 mb-5">
           <div className="bg-red-600 flex justify-between">
-            <div className="text-white py-[6px]">- 最新情報</div>
+            <div className="text-white py-[6px]">- 業務内容</div>
             <div className="bg-red-700 hover:bg-red-600 text-sm py-[8px] text-white">
               <Link href="/service">一覧を見る→</Link>
             </div>

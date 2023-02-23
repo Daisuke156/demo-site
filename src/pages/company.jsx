@@ -29,6 +29,7 @@ const Company = () => {
       {item.title}
     </Anchor>
   ));
+
   return (
     <>
       <Head>
@@ -40,7 +41,7 @@ const Company = () => {
           <div className="w-1/6">
             <Side2 />
           </div>
-          <div className="w-5/6 pb-40 pt-10 mx-10">
+          <div className="w-5/6 pt-10 mx-10">
             <div className="flex justify-end bg-red-100 h-[30px]">
               <Breadcrumbs>{items}</Breadcrumbs>
             </div>
@@ -78,10 +79,10 @@ const Company = () => {
                     <h1 className="py-[5px]">
                       <h2 className="py-[5px] px-[10px]">従業員数</h2>
                     </h1>
-                    <h1 className="border-white border-y-2 h-[200px]">
+                    <h1 className="border-white border-y-2 h-[160px]">
                       <h2 className="py-[5px] px-[10px]">取引銀行</h2>
                     </h1>
-                    <h1 className="py-[5px] h-[300px]">
+                    <h1 className="py-[5px] h-[180px]">
                       <h2 className="py-[5px] px-[10px]">取引先</h2>
                     </h1>
                   </div>
@@ -124,18 +125,18 @@ const Company = () => {
                     <h1 className="py-[5px] h-[44px]">
                       <h2 className="py-[5px]">100人(令和5年1月時点)</h2>
                     </h1>
-                    <h1 className="py-[5px] border-y-2 h-[200px]">
+                    <h1 className="py-[5px] border-y-2 h-[160px]">
                       <h2 className="py-[5px]">
                         <li>***銀行</li>
                         <li className="my-5">**バンク</li>
                         <li>****銀行</li>
                       </h2>
                     </h1>
-                    <h1 className="py-[5px] h-[300px]">
-                      <h2 className="py-[5px]">
+                    <h1 className="py-[5px] h-[180px]">
+                      <h2>
                         {ITEMS.map((item) => {
                           return (
-                            <div className="text-sm my-5 text-blue-600 hover:underline hover:text-red-600">
+                            <div className="text-sm mb-5 text-blue-600 hover:underline hover:text-red-600">
                               <a href={item.href}>
                                 <li>{item.title}</li>
                               </a>
@@ -148,7 +149,7 @@ const Company = () => {
                 </div>
               </div>
             </div>
-            <div className="my-20">
+            <div className="my-5">
               <Info />
             </div>
           </div>

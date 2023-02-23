@@ -150,7 +150,7 @@ const Recruit = () => {
                     <br />
                     ※休日交代制（月8～11日）
                   </h3>
-                  <h1 className="text-red-500 font-bold">
+                  <h1 className="text-red-500 font-bold mt-[5px]">
                     ●その他の休日・休暇
                   </h1>
                   <h2>慶弔、年次有給休暇</h2>
