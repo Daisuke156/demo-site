@@ -18,7 +18,7 @@ const Body = () => {
                 個人の意志の総和による会社の推進
               </div>
               <div className="bg-red-600 hover:bg-red-500 w-[100px] mt-10 h-[30px] mx-5 text-white text-xl">
-                <Link href="/">詳しく見る</Link>
+                <Link href="/policy">詳しく見る</Link>
               </div>
             </div>
           </div>
