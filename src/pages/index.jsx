@@ -15,6 +15,10 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-full">
+        <div className="mx-80 mt-20 text-4xl">ITアウトソーシングで、</div>
+        <div className="mx-80 mb-10 text-4xl">
+          人と社会の成長に取り組みます。
+        </div>
         <div className="flex">
           <div className="w-1/6">
             <Sidevar />
