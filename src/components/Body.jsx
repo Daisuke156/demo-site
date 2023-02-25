@@ -161,8 +161,13 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="mx-10 my-20">
+      <div className="mx-10 mt-10 mb-5">
         <Info />
+      </div>
+      <div className="mx-10 pb-10 text-sm">
+        ***はシステム構築、運用を主業務としています。システムエンジニアをやる気のある方を採用募集
+        <br />
+        しております。東京、名古屋、神戸と全国に展開しています。フリーダイヤル:0120-***-***
       </div>
     </>
   );

@@ -2,20 +2,10 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Info from "../components/Info";
-import { useState } from "react";
-import {
-  Anchor,
-  AspectRatio,
-  Breadcrumbs,
-  Button,
-  Card,
-  Collapse,
-  Image,
-} from "@mantine/core";
+import { Anchor, Breadcrumbs } from "@mantine/core";
 import Side2 from "../components/Side2";
 
 const Policy = () => {
-  const [opened, setOpened] = useState(false);
   const items = [
     { title: "HOME", href: "/" },
     { title: "当社の理念", href: "/policy" },
@@ -39,72 +29,47 @@ const Policy = () => {
           <div className="flex justify-end bg-red-100 h-[30px]">
             <Breadcrumbs>{items}</Breadcrumbs>
           </div>
-          <div className="my-10 text-4xl font-bold">当社の理念</div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            rerum aut fugiat, distinctio blanditiis voluptatum debitis sequi.
-            Illo harum omnis natus vel ullam expedita pariatur doloribus dicta,
-            minus iste sit!
+          <div className="my-5 text-sm">
+            時空を超えていつまでも続く***を創ろう
           </div>
-          <div>
-            <Button
-              className="bg-blue-500 my-10"
-              onClick={() => setOpened((o) => !o)}
-            >
-              代表からの言葉
-            </Button>
-            <Collapse in={opened}>
-              <div className="flex">
-                <div>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Itaque rerum aut fugiat, distinctio blanditiis voluptatum
-                  debitis sequi. Illo harum omnis natus vel ullam expedita
-                  pariatur doloribus dicta, minus iste sit!
-                  <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Itaque rerum aut fugiat, distinctio blanditiis voluptatum
-                  debitis sequi. Illo harum omnis natus vel ullam expedita
-                  pariatur doloribus dicta, minus iste sit!
-                </div>
-                <div className="mx-10">
-                  <Card shadow="sm" p="lg" radius="md" withBorder>
-                    <Card.Section>
-                      <Image
-                        src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80"
-                        height={150}
-                        alt="Norway"
-                      />
-                    </Card.Section>
-                  </Card>
-                </div>
-              </div>
-            </Collapse>
+          <div className="text-4xl mx-20 text-red-600">
+            時空を超えていつまでも続く仲間を創ろう
           </div>
-          <div className="flex justify-between">
-            <div className="mb-10 w-1/2">
-              <div className="text-xl mb-10 text-center">当社の取り組み</div>
-              <AspectRatio ratio={16 / 9}>
-                <iframe
-                  src="https://www.youtube.com/embed/Dorf8i6lCuk"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </AspectRatio>
-            </div>
-            <div className="mb-10 w-1/2 mx-10">
-              <div className="text-xl mb-10 text-center">現場風景</div>
-              <AspectRatio ratio={16 / 9}>
-                <iframe
-                  src="https://www.youtube.com/embed/Dorf8i6lCuk"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </AspectRatio>
-            </div>
+          <div className="flex mx-20 mt-10 text-2xl">
+            <div className="text-red-600">自己の実現</div>
+            <div>による会社の発展</div>
           </div>
-          <div className="my-20">
+          <div className="mx-20">(高い人間性による集団の活動)</div>
+          <div className="flex mx-20 mt-10 text-2xl">
+            <div className="text-red-600">個人の意思の総和</div>
+            <div>による会社の推進</div>
+          </div>
+          <div className="mx-20">(個々の存在を尊重し協調できる集団 )</div>
+          <div className="my-10 text-sm mx-10">
+            今日のグローバル化の波は人々の意識を益々加速させ、拡大する情報の渦は激動する価値の潮流として会
+            <br />
+            社を変革し続けています。
+          </div>
+          <div className="text-sm mx-10">
+            現在の、私たちの社会では、常に止まらない加速度的な変化に対応する能力が必要です。
+            <br />
+            私たちは、先人たちが抱いた未知の世界への希望やたゆまぬ努力、社会の変革に対する
+            <br />
+            姿勢から学ぶだけではなく、もっとはるかに遠い、人類が今日までにたどり着いた生命の本質を
+            <br />
+            理解し、未来に立ち向かっていくことが必要であると考えます。
+            <br />
+            人間の外に向けたこだわりではなく、幾多の命を繋いで辿り着いた、自分たちの内に宿る良質な叡智を発
+            <br />
+            揮し、 未知なる世界へ挑む自信を持つことだと思います。
+          </div>
+          <div className="my-10 text-sm mx-10">
+            私たちアシストは、社員一人ひとりが素直に相手を尊重し、認め、思いやることによって、
+            仲間に恵ま
+            <br />
+            れ、自信に満ちた人生を得ることを願っております。
+          </div>
+          <div className="my-5">
             <Info />
           </div>
         </div>
