@@ -25,7 +25,7 @@ const Partner = () => {
         <div className="w-1/6">
           <Side2 />
         </div>
-        <div className="w-5/6 pb-40 pt-10 mx-10">
+        <div className="w-5/6 py-10 mx-10">
           <div className="flex justify-end bg-red-100 h-[30px]">
             <Breadcrumbs>{items}</Breadcrumbs>
           </div>
@@ -66,7 +66,7 @@ const Partner = () => {
               <br />
               弊社と共に、相互の事業拡大と安定的成長を目指しましょう。
             </div>
-            <div className="flex">
+            <div className="flex my-10">
               <div className="font-bold text-sm">
                 <h1 className="h-[40px] border-2 border-x-2 border-y-2">
                   対象工種
