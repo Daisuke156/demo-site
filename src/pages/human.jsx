@@ -27,7 +27,7 @@ const Human = () => {
           <div className="w-1/6">
             <Side2 />
           </div>
-          <div className="w-5/6 pb-40 pt-10 mx-10">
+          <div className="w-5/6 pb-10 pt-10 mx-10">
             <div className="flex justify-end bg-red-100 h-[30px]">
               <Breadcrumbs>{items}</Breadcrumbs>
             </div>
