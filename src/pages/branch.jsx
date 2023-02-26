@@ -26,7 +26,7 @@ const Branch = () => {
           <div className="w-1/6">
             <Side2 />
           </div>
-          <div className="w-5/6 pb-20 pt-10 mx-10">
+          <div className="w-5/6 my-10 mx-10">
             <div className="flex justify-end bg-red-100 h-[30px]">
               <Breadcrumbs>{items}</Breadcrumbs>
             </div>
@@ -69,7 +69,7 @@ const Branch = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-20">
+            <div className="mt-10">
               <Info />
             </div>
           </div>
