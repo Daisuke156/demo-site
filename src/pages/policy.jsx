@@ -36,12 +36,12 @@ const Policy = () => {
             時空を超えていつまでも続く仲間を創ろう
           </div>
           <div className="flex mx-20 mt-10 text-2xl">
-            <div className="text-red-600">自己の実現</div>
+            <div className="text-red-700">自己の実現</div>
             <div>による会社の発展</div>
           </div>
           <div className="mx-20">(高い人間性による集団の活動)</div>
           <div className="flex mx-20 mt-10 text-2xl">
-            <div className="text-red-600">個人の意思の総和</div>
+            <div className="text-red-700">個人の意思の総和</div>
             <div>による会社の推進</div>
           </div>
           <div className="mx-20">(個々の存在を尊重し協調できる集団 )</div>
