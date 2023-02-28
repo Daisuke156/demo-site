@@ -32,7 +32,7 @@ const Policy = () => {
           <div className="my-5 text-sm">
             時空を超えていつまでも続く***を創ろう
           </div>
-          <div className="text-4xl mx-20 text-red-600">
+          <div className="text-4xl mx-20 text-red-800">
             時空を超えていつまでも続く仲間を創ろう
           </div>
           <div className="flex mx-20 mt-10 text-2xl">

@@ -1,7 +1,7 @@
 const Workstyle = () => {
   return (
     <>
-      <div className="mt-20 mb-5 bg-blue-300 h-[60px] py-[15px] text-white text-xl">
+      <div className="mt-20 mb-5 bg-blue-300 h-[40px] py-[6px] text-white text-xl">
         - 募集要項
       </div>
       <div className="mx-5 border-y-2 border-x-2">
