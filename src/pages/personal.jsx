@@ -93,7 +93,7 @@ const Personal = () => {
           <div className="flex justify-end">
             <div>制定:平成21年4月1日</div>
           </div>
-          <div className="border-2">
+          <div className="border-2 py-5 my-5">
             <div className="flex justify-center">
               <div className="border-2 bg-green-200 mb-5 text-xl">
                 個人情報に関するお問い合わせ窓口
