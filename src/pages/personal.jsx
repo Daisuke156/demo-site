@@ -21,7 +21,7 @@ const Personal = () => {
           <div></div>
           <div></div>
           <div></div>
-          <div className="my-80">
+          <div className="my-10">
             <Info />
           </div>
         </div>
@@ -30,4 +30,5 @@ const Personal = () => {
     </>
   );
 };
+
 export default Personal;
