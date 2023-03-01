@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <>
       <div className="flex justify-between bg-red-700 border-b-4 border-b-white">
-        <div className="text-red-300 text-6xl py-10 px-20 font-bold">
+        <div className="text-red-300 text-6xl pt-10 px-20 font-bold">
           <Link href="/">Demo Site</Link>
         </div>
-        <div className="my-10">
+        <div className="mt-10">
           <div className="text-black bg-white border-2 px-20 mb-5 mr-20">
             電話受付時間:平日9:00〜17:00
           </div>
