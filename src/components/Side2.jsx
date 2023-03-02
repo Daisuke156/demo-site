@@ -67,7 +67,9 @@ const Side2 = () => {
           </Card>
         </div>
         <div className="sm:text-sm my-5 border-2 border-red-50">
-          <div className="bg-gray-50 text-red-700 h-[20px]">事務所紹介</div>
+          <div className="bg-gray-50 text-red-700 h-[20px]">
+            <Link href="/branch">事務所紹介</Link>
+          </div>
           <Branch />
         </div>
         <div>
