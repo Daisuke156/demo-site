@@ -30,7 +30,7 @@ const Policy = () => {
             <Breadcrumbs>{items}</Breadcrumbs>
           </div>
           <div className="my-5 text-sm">
-            時空を超えていつまでも続く***を創ろう
+            時空を超えていつまでも続く仲間を創ろう
           </div>
           <div className="text-4xl mx-20 text-red-800">
             時空を超えていつまでも続く仲間を創ろう
