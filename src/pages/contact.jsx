@@ -21,7 +21,7 @@ const Contact = () => {
       </Head>
       <div>
         <Header />
-        <div className="flex h-full pb-40">
+        <div className="flex h-full">
           <div className="w-1/6">
             <Side2 />
           </div>
@@ -30,13 +30,13 @@ const Contact = () => {
               <Breadcrumbs>{items}</Breadcrumbs>
             </div>
             <div className="text-2xl my-5 mx-10">お電話でのお問い合わせ</div>
-            <div className="mx-10 font-bold text-xl">株式会社**</div>
+            <div className="mx-10 mt-10 font-bold text-xl">株式会社**</div>
             <div className="flex">
               <div className="mx-10 my-5">東京事務所(本部)</div>
               <div className="my-5">〒105-1111 東京都港区***</div>
             </div>
             <div className="flex">
-              <div className="mx-10 py-[5px] my-5 text-red-600 text-xl">
+              <div className="mx-10 py-[5px] my-5 text-red-600 text-2xl">
                 電話受付時間:平日9:00〜17:00
               </div>
               <div className="mx-10 my-5 text-red-600 text-4xl">
